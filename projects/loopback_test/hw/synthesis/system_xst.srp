@@ -1,0 +1,1057 @@
+Release 13.4 - xst O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_xst.prj"
+Verilog Include Directory          : {"/root/NetFPGA-10G-live-release_5.0.7/projects/loopback_test/hw/pcores/" "/root/NetFPGA-10G-live-release_5.0.7/lib/hw/contrib/pcores/" "/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/" "/root/NetFPGA-10G-live-release_5.0.7/lib/hw/xilinx/pcores/" "/opt/Xilinx/13.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc5vtx240tff1759-2
+Output File Name                   : "../implementation/system.ngc"
+
+---- Source Options
+Top Module Name                    : system
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 10000
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../hdl/system.v" in library work
+Module <system> compiled
+Module <reset_0_wrapper> compiled
+Module <nf10_mdio_0_wrapper> compiled
+Module <nf10_axis_gen_check_1_wrapper> compiled
+Module <nf10_axis_gen_check_0_wrapper> compiled
+Module <nf10_10g_interface_3_wrapper> compiled
+Module <nf10_10g_interface_2_wrapper> compiled
+Module <nf10_10g_interface_1_wrapper> compiled
+Module <nf10_10g_interface_0_wrapper> compiled
+Module <microblaze_0_ilmb_wrapper> compiled
+Module <microblaze_0_i_bram_ctrl_wrapper> compiled
+Module <microblaze_0_dlmb_wrapper> compiled
+Module <microblaze_0_d_bram_ctrl_wrapper> compiled
+Module <microblaze_0_bram_block_wrapper> compiled
+Module <microblaze_0_wrapper> compiled
+Module <diff_input_buf_3_wrapper> compiled
+Module <diff_input_buf_2_wrapper> compiled
+Module <diff_input_buf_1_wrapper> compiled
+Module <diff_input_buf_0_wrapper> compiled
+Module <clock_generator_0_wrapper> compiled
+Module <axi_timebase_wdt_0_wrapper> compiled
+Module <axi_interconnect_memory_mapped_lite_0_wrapper> compiled
+Module <rs232_uart_1_wrapper> compiled
+No errors in compilation
+Analysis of file <"system_xst.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <system> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <system>.
+Module <system> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <iobuf_0> in unit <system>.
+    Set user-defined property "DRIVE =  12" for instance <iobuf_0> in unit <system>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <iobuf_0> in unit <system>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <iobuf_0> in unit <system>.
+    Set user-defined property "IFD_DELAY_VALUE =  AUTO" for instance <iobuf_0> in unit <system>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <iobuf_0> in unit <system>.
+    Set user-defined property "SLEW =  SLOW" for instance <iobuf_0> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <RS232_Uart_1> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <axi_interconnect_memory_mapped_lite_0> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <axi_timebase_wdt_0> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <clock_generator_0> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <diff_input_buf_0> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <diff_input_buf_1> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <diff_input_buf_2> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <diff_input_buf_3> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <microblaze_0> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <microblaze_0_bram_block> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <microblaze_0_d_bram_ctrl> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <microblaze_0_dlmb> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <microblaze_0_i_bram_ctrl> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <microblaze_0_ilmb> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <nf10_10g_interface_0> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <nf10_10g_interface_1> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <nf10_10g_interface_2> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <nf10_10g_interface_3> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <nf10_axis_gen_check_0> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <nf10_axis_gen_check_1> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <nf10_mdio_0> in unit <system>.
+    Set property "BOX_TYPE = user_black_box" for instance <reset_0> in unit <system>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <system>.
+    Related source file is "../hdl/system.v".
+WARNING:Xst:653 - Signal <axi_interconnect_memory_mapped_lite_0_S_AWLOCK<1>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <axi_interconnect_memory_mapped_lite_0_S_ARLOCK<1>> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_WLAST<4:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_AWSIZE<14:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_AWLEN<39:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_AWID<4:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_AWCACHE<19:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_AWBURST<9:2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_ARSIZE<14:3>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_ARLEN<39:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_ARID<4:1>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_ARCACHE<19:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <axi_interconnect_memory_mapped_lite_0_M_ARBURST<9:2>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <system> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../implementation/reset_0_wrapper.ngc>.
+Reading core <../implementation/nf10_mdio_0_wrapper.ngc>.
+Reading core <../implementation/nf10_axis_gen_check_1_wrapper.ngc>.
+Reading core <../implementation/nf10_axis_gen_check_0_wrapper.ngc>.
+Reading core <../implementation/nf10_10g_interface_3_wrapper.ngc>.
+INFO:coreutil - Hardware Evaluation license for component <ten_gig_eth_mac> found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for feiran on 09/04/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <ten_gig_eth_mac> found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for feiran on 09/04/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+Reading core <../implementation/nf10_10g_interface_2_wrapper.ngc>.
+INFO:coreutil - Hardware Evaluation license for component <ten_gig_eth_mac> found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for feiran on 09/04/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <ten_gig_eth_mac> found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for feiran on 09/04/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+Reading core <../implementation/nf10_10g_interface_1_wrapper.ngc>.
+INFO:coreutil - Hardware Evaluation license for component <ten_gig_eth_mac> found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for feiran on 09/04/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <ten_gig_eth_mac> found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for feiran on 09/04/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+Reading core <../implementation/nf10_10g_interface_0_wrapper.ngc>.
+INFO:coreutil - Hardware Evaluation license for component <ten_gig_eth_mac> found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for feiran on 09/04/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+INFO:coreutil - Hardware Evaluation license for component <ten_gig_eth_mac> found. The generated design will cease to function in the programmed device after operating for some period of time. This allows you to evaluate the component in hardware. You are encouraged to license this component.
+
+   The license for this core was generated for feiran on 09/04/2015It is the responsibility of the Licensee of this core to adhere to all terms and conditions of the applicable license agreement when using this core.
+
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+Reading core <../implementation/microblaze_0_ilmb_wrapper.ngc>.
+Reading core <../implementation/microblaze_0_i_bram_ctrl_wrapper.ngc>.
+Reading core <../implementation/microblaze_0_dlmb_wrapper.ngc>.
+Reading core <../implementation/microblaze_0_d_bram_ctrl_wrapper.ngc>.
+Reading core <../implementation/microblaze_0_bram_block_wrapper.ngc>.
+Reading core <../implementation/microblaze_0_wrapper.ngc>.
+Reading core <../implementation/diff_input_buf_3_wrapper.ngc>.
+Reading core <../implementation/diff_input_buf_2_wrapper.ngc>.
+Reading core <../implementation/diff_input_buf_1_wrapper.ngc>.
+Reading core <../implementation/diff_input_buf_0_wrapper.ngc>.
+Reading core <../implementation/clock_generator_0_wrapper.ngc>.
+Reading core <../implementation/axi_timebase_wdt_0_wrapper.ngc>.
+Reading core <../implementation/axi_interconnect_memory_mapped_lite_0_wrapper.ngc>.
+Reading core <../implementation/rs232_uart_1_wrapper.ngc>.
+Loading core <reset_0_wrapper> for timing and area information for instance <reset_0>.
+Loading core <nf10_mdio_0_wrapper> for timing and area information for instance <nf10_mdio_0>.
+Loading core <nf10_axis_gen_check_1_wrapper> for timing and area information for instance <nf10_axis_gen_check_1>.
+Loading core <nf10_axis_gen_check_0_wrapper> for timing and area information for instance <nf10_axis_gen_check_0>.
+Loading core <nf10_10g_interface_3_wrapper> for timing and area information for instance <nf10_10g_interface_3>.
+Loading core <nf10_10g_interface_2_wrapper> for timing and area information for instance <nf10_10g_interface_2>.
+Loading core <nf10_10g_interface_1_wrapper> for timing and area information for instance <nf10_10g_interface_1>.
+Loading core <nf10_10g_interface_0_wrapper> for timing and area information for instance <nf10_10g_interface_0>.
+Loading core <microblaze_0_ilmb_wrapper> for timing and area information for instance <microblaze_0_ilmb>.
+Loading core <microblaze_0_i_bram_ctrl_wrapper> for timing and area information for instance <microblaze_0_i_bram_ctrl>.
+Loading core <microblaze_0_dlmb_wrapper> for timing and area information for instance <microblaze_0_dlmb>.
+Loading core <microblaze_0_d_bram_ctrl_wrapper> for timing and area information for instance <microblaze_0_d_bram_ctrl>.
+Loading core <microblaze_0_bram_block_wrapper> for timing and area information for instance <microblaze_0_bram_block>.
+Loading core <microblaze_0_wrapper> for timing and area information for instance <microblaze_0>.
+Loading core <diff_input_buf_3_wrapper> for timing and area information for instance <diff_input_buf_3>.
+Loading core <diff_input_buf_2_wrapper> for timing and area information for instance <diff_input_buf_2>.
+Loading core <diff_input_buf_1_wrapper> for timing and area information for instance <diff_input_buf_1>.
+Loading core <diff_input_buf_0_wrapper> for timing and area information for instance <diff_input_buf_0>.
+Loading core <clock_generator_0_wrapper> for timing and area information for instance <clock_generator_0>.
+Loading core <axi_timebase_wdt_0_wrapper> for timing and area information for instance <axi_timebase_wdt_0>.
+Loading core <axi_interconnect_memory_mapped_lite_0_wrapper> for timing and area information for instance <axi_interconnect_memory_mapped_lite_0>.
+Loading core <rs232_uart_1_wrapper> for timing and area information for instance <RS232_Uart_1>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1> in Unit <nf10_10g_interface_3> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_1> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0> in Unit <nf10_10g_interface_3> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_10> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_11> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_12> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_13> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_14> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_15> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_16>
+   <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_17> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_2> in Unit <nf10_10g_interface_3> is equivalent to the following 5 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_18> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_19> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_20> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_21> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6> in Unit <nf10_10g_interface_3> is equivalent to the following 3 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_7> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_8> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_9> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_3> in Unit <nf10_10g_interface_3> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_4> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_5> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2> in Unit <nf10_10g_interface_3> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_18> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_19> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_20> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_21> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_22> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_23> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_24> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_25>
+   <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_26> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0> in Unit <nf10_10g_interface_3> is equivalent to the following 7 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_1> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_10> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_11> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_12> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_13> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_14> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_15> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1> in Unit <nf10_10g_interface_3> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_1> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3> in Unit <nf10_10g_interface_3> is equivalent to the following 8 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_4> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_5> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_6> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_7> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_8> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_9> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_27> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_28> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6> in Unit <nf10_10g_interface_2> is equivalent to the following 3 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_7> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_8> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_9> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_3> in Unit <nf10_10g_interface_2> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_4> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_5> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2> in Unit <nf10_10g_interface_2> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_18> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_19> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_20> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_21> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_22> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_23> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_24> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_25>
+   <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_26> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0> in Unit <nf10_10g_interface_2> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_10> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_11> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_12> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_13> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_14> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_15> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_16>
+   <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_17> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1> in Unit <nf10_10g_interface_2> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_1> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3> in Unit <nf10_10g_interface_2> is equivalent to the following 8 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_4> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_5> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_6> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_7> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_8> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_9> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_27> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_28> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_2> in Unit <nf10_10g_interface_2> is equivalent to the following 5 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_18> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_19> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_20> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_21> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0> in Unit <nf10_10g_interface_2> is equivalent to the following 7 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_1> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_10> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_11> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_12> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_13> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_14> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_15> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1> in Unit <nf10_10g_interface_2> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_1> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6> in Unit <nf10_10g_interface_1> is equivalent to the following 3 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_7> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_8> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_9> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_3> in Unit <nf10_10g_interface_1> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_4> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_5> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2> in Unit <nf10_10g_interface_1> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_18> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_19> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_20> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_21> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_22> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_23> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_24> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_25>
+   <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_26> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3> in Unit <nf10_10g_interface_1> is equivalent to the following 8 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_4> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_5> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_6> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_7> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_8> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_9> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_27> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_28> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0> in Unit <nf10_10g_interface_1> is equivalent to the following 7 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_1> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_10> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_11> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_12> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_13> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_14> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_15> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1> in Unit <nf10_10g_interface_1> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_1> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_2> in Unit <nf10_10g_interface_1> is equivalent to the following 5 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_18> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_19> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_20> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_21> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1> in Unit <nf10_10g_interface_1> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_1> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0> in Unit <nf10_10g_interface_1> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_10> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_11> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_12> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_13> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_14> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_15> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_16>
+   <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_17> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0> in Unit <nf10_10g_interface_0> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_10> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_11> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_12> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_13> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_14> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_15> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_16>
+   <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_17> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1> in Unit <nf10_10g_interface_0> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_1> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6> in Unit <nf10_10g_interface_0> is equivalent to the following 3 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_7> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_8> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_9> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_3> in Unit <nf10_10g_interface_0> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_4> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_5> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2> in Unit <nf10_10g_interface_0> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_18> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_19> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_20> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_21> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_22> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_23> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_24> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_25>
+   <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_26> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3> in Unit <nf10_10g_interface_0> is equivalent to the following 8 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_4> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_5> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_6> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_7> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_8> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_9> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_27> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_28> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0> in Unit <nf10_10g_interface_0> is equivalent to the following 7 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_1> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_10> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_11> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_12> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_13> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_14> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_15> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1> in Unit <nf10_10g_interface_0> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_1> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_2> in Unit <nf10_10g_interface_0> is equivalent to the following 5 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_18> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_19> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_20> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_21> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> in Unit <axi_interconnect_memory_mapped_lite_0> is equivalent to the following 4 FFs/Latches : <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[1].clock_conv_inst/s_async_conv_reset> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[2].clock_conv_inst/s_async_conv_reset> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[3].clock_conv_inst/s_async_conv_reset> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[4].clock_conv_inst/s_async_conv_reset> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_reset_resync_0> in Unit <axi_interconnect_memory_mapped_lite_0> is equivalent to the following 6 FFs/Latches : <axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_axi_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[1].clock_conv_inst/interconnect_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[2].clock_conv_inst/interconnect_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[3].clock_conv_inst/interconnect_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[4].clock_conv_inst/interconnect_reset_resync_0> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1> in Unit <nf10_10g_interface_3> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_1> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0> in Unit <nf10_10g_interface_3> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_10> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_11> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_12> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_13> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_14> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_15> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_16>
+   <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_17> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_2> in Unit <nf10_10g_interface_3> is equivalent to the following 5 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_18> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_19> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_20> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_21> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6> in Unit <nf10_10g_interface_3> is equivalent to the following 3 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_7> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_8> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_9> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_3> in Unit <nf10_10g_interface_3> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_4> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_5> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2> in Unit <nf10_10g_interface_3> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_18> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_19> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_20> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_21> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_22> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_23> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_24> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_25>
+   <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_26> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0> in Unit <nf10_10g_interface_3> is equivalent to the following 7 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_1> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_10> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_11> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_12> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_13> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_14> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_15> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1> in Unit <nf10_10g_interface_3> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_1> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3> in Unit <nf10_10g_interface_3> is equivalent to the following 8 FFs/Latches : <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_4> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_5> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_6> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_7> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_8> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_9> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_27> <nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_28> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2> in Unit <nf10_10g_interface_2> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_18> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_19> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_20> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_21> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_22> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_23> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_24> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_25>
+   <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_26> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0> in Unit <nf10_10g_interface_2> is equivalent to the following 7 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_1> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_10> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_11> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_12> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_13> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_14> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_15> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3> in Unit <nf10_10g_interface_2> is equivalent to the following 8 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_4> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_5> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_6> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_7> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_8> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_9> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_27> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_28> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1> in Unit <nf10_10g_interface_2> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_1> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1> in Unit <nf10_10g_interface_2> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_1> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_2> in Unit <nf10_10g_interface_2> is equivalent to the following 5 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_18> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_19> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_20> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_21> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0> in Unit <nf10_10g_interface_2> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_10> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_11> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_12> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_13> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_14> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_15> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_16>
+   <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_17> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6> in Unit <nf10_10g_interface_2> is equivalent to the following 3 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_7> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_8> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_9> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_3> in Unit <nf10_10g_interface_2> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_4> <nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_5> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1> in Unit <nf10_10g_interface_1> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_1> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0> in Unit <nf10_10g_interface_1> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_10> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_11> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_12> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_13> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_14> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_15> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_16>
+   <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_17> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1> in Unit <nf10_10g_interface_1> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_1> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_2> in Unit <nf10_10g_interface_1> is equivalent to the following 5 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_18> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_19> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_20> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_21> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2> in Unit <nf10_10g_interface_1> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_18> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_19> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_20> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_21> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_22> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_23> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_24> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_25>
+   <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_26> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6> in Unit <nf10_10g_interface_1> is equivalent to the following 3 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_7> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_8> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_9> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_3> in Unit <nf10_10g_interface_1> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_4> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_5> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3> in Unit <nf10_10g_interface_1> is equivalent to the following 8 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_4> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_5> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_6> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_7> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_8> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_9> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_27> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_28> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0> in Unit <nf10_10g_interface_1> is equivalent to the following 7 FFs/Latches : <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_1> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_10> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_11> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_12> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_13> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_14> <nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_15> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1> in Unit <nf10_10g_interface_0> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_1> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3> in Unit <nf10_10g_interface_0> is equivalent to the following 8 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_4> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_5> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_6> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_7> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_8> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_9> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_27> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_28> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0> in Unit <nf10_10g_interface_0> is equivalent to the following 7 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_1> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_10> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_11> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_12> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_13> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_14> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_15> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_2> in Unit <nf10_10g_interface_0> is equivalent to the following 5 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_18> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_19> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_20> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_21> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6> in Unit <nf10_10g_interface_0> is equivalent to the following 3 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_7> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_8> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_9> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_3> in Unit <nf10_10g_interface_0> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_4> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_5> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1> in Unit <nf10_10g_interface_0> is equivalent to the following 2 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_1> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_1_2> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0> in Unit <nf10_10g_interface_0> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_10> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_11> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_12> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_13> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_14> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_15> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_16>
+   <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_17> 
+INFO:Xst:2260 - The FF/Latch <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2> in Unit <nf10_10g_interface_0> is equivalent to the following 9 FFs/Latches : <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_18> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_19> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_20> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_21> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_22> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_23> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_24> <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_25>
+   <nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_26> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_reset_resync_0> in Unit <axi_interconnect_memory_mapped_lite_0> is equivalent to the following 6 FFs/Latches : <axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_axi_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[1].clock_conv_inst/interconnect_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[2].clock_conv_inst/interconnect_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[3].clock_conv_inst/interconnect_reset_resync_0> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[4].clock_conv_inst/interconnect_reset_resync_0> 
+INFO:Xst:2260 - The FF/Latch <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> in Unit <axi_interconnect_memory_mapped_lite_0> is equivalent to the following 4 FFs/Latches : <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[1].clock_conv_inst/s_async_conv_reset> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[2].clock_conv_inst/s_async_conv_reset> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[3].clock_conv_inst/s_async_conv_reset> <axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[4].clock_conv_inst/s_async_conv_reset> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+Top Level Output File Name         : ../implementation/system.ngc
+Output Format                      : ngc
+Optimization Goal                  : speed
+Keep Hierarchy                     : no
+
+Design Statistics
+# IOs                              : 79
+
+Cell Usage :
+# BELS                             : 22587
+#      AND2                        : 48
+#      GND                         : 35
+#      INV                         : 364
+#      LUT1                        : 899
+#      LUT2                        : 1587
+#      LUT3                        : 3586
+#      LUT4                        : 2196
+#      LUT5                        : 2674
+#      LUT6                        : 7814
+#      LUT6_2                      : 80
+#      MULT_AND                    : 2
+#      MUXCY                       : 1102
+#      MUXCY_L                     : 540
+#      MUXF5                       : 4
+#      MUXF7                       : 258
+#      VCC                         : 28
+#      XORCY                       : 1370
+# FlipFlops/Latches                : 23004
+#      FD                          : 3740
+#      FDC                         : 752
+#      FDCE                        : 398
+#      FDE                         : 1511
+#      FDP                         : 360
+#      FDPE                        : 10
+#      FDR                         : 8419
+#      FDRE                        : 5125
+#      FDRS                        : 1029
+#      FDRSE                       : 179
+#      FDS                         : 1240
+#      FDSE                        : 241
+# RAMS                             : 52
+#      RAM32M                      : 16
+#      RAMB18                      : 8
+#      RAMB18SDP                   : 24
+#      RAMB36_EXP                  : 4
+# Shift Registers                  : 852
+#      SRL16                       : 819
+#      SRLC16E                     : 29
+#      SRLC32E                     : 4
+# Clock Buffers                    : 12
+#      BUFG                        : 12
+# IO Buffers                       : 75
+#      IBUF                        : 35
+#      IBUFDS                      : 4
+#      IOBUF                       : 1
+#      OBUF                        : 35
+# GigabitIOs                       : 8
+#      GTX_DUAL                    : 8
+# Others                           : 25
+#      FIFO18_36                   : 16
+#      FIFO36_72_EXP               : 8
+#      PLL_ADV                     : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vtx240tff1759-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:           23004  out of  149760    15%  
+ Number of Slice LUTs:                20116  out of  149760    13%  
+    Number used as Logic:             19200  out of  149760    12%  
+    Number used as Memory:              916  out of  39360     2%  
+       Number used as RAM:               64
+       Number used as SRL:              852
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:  32321
+   Number with an unused Flip Flop:    9317  out of  32321    28%  
+   Number with an unused LUT:         12205  out of  32321    37%  
+   Number of fully used LUT-FF pairs: 10799  out of  32321    33%  
+   Number of unique control sets:      2252
+
+IO Utilization: 
+ Number of IOs:                          79
+ Number of bonded IOBs:                  71  out of    680    10%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               36  out of    324    11%  
+    Number using Block RAM only:         20
+    Number using FIFO only:              16
+ Number of BUFG/BUFGCTRLs:               12  out of     32    37%  
+ Number of GTX_DUALs:                     8  out of     24    33%  
+ Number of PLL_ADVs:                      1  out of      6    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------------------------------------------------------+-------------------------------------------------------------+-------+
+Clock Signal                                                                              | Clock buffer(FF name)                                       | Load  |
+------------------------------------------------------------------------------------------+-------------------------------------------------------------+-------+
+clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT1                                      | BUFG                                                        | 1115  |
+N0                                                                                        | NONE(nf10_axis_gen_check_1/nf10_axis_gen_check_1/tx_count_0)| 132   |
+nf10_10g_interface_3/nf10_10g_interface_3/txoutclk                                        | BUFG                                                        | 4093  |
+clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT0                                      | BUFG                                                        | 1853  |
+nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1| BUFG                                                        | 458   |
+clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT2                                      | BUFG                                                        | 2652  |
+nf10_10g_interface_2/nf10_10g_interface_2/txoutclk                                        | BUFG                                                        | 4093  |
+nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1| BUFG                                                        | 458   |
+nf10_10g_interface_1/nf10_10g_interface_1/txoutclk                                        | BUFG                                                        | 4093  |
+nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1| BUFG                                                        | 458   |
+nf10_10g_interface_0/nf10_10g_interface_0/txoutclk                                        | BUFG                                                        | 4093  |
+nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1| BUFG                                                        | 458   |
+------------------------------------------------------------------------------------------+-------------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                                                                                                                                                                                                                                           | Buffer(FF name)                                                                                                                                                 | Load  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+nf10_10g_interface_0/nf10_10g_interface_0/converter_master/axi_resetn_inv(nf10_10g_interface_0/nf10_10g_interface_0/reset1_INV_0:O)                                                                                                                                                                                      | NONE(nf10_10g_interface_0/nf10_10g_interface_0/rx_queue/err_state_FSM_FFd1)                                                                                     | 164   |
+nf10_10g_interface_1/nf10_10g_interface_1/converter_master/axi_resetn_inv(nf10_10g_interface_1/nf10_10g_interface_1/reset1_INV_0:O)                                                                                                                                                                                      | NONE(nf10_10g_interface_1/nf10_10g_interface_1/rx_queue/err_state_FSM_FFd1)                                                                                     | 164   |
+nf10_10g_interface_2/nf10_10g_interface_2/converter_master/axi_resetn_inv(nf10_10g_interface_2/nf10_10g_interface_2/reset1_INV_0:O)                                                                                                                                                                                      | NONE(nf10_10g_interface_2/nf10_10g_interface_2/rx_queue/err_state_FSM_FFd1)                                                                                     | 164   |
+nf10_10g_interface_3/nf10_10g_interface_3/converter_master/axi_resetn_inv(nf10_10g_interface_3/nf10_10g_interface_3/reset1_INV_0:O)                                                                                                                                                                                      | NONE(nf10_10g_interface_3/nf10_10g_interface_3/rx_queue/err_state_FSM_FFd1)                                                                                     | 164   |
+nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/host_rd_data<0>(nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/XST_GND:G)                                                                                                                                                                                 | NONE(nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/G_RX.rxgen/g_is_eval.calculate_crc2/crc1/X36_1I224)                                                 | 96    |
+nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/host_rd_data<0>(nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/XST_GND:G)                                                                                                                                                                                 | NONE(nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/G_RX.rxgen/g_is_eval.calculate_crc2/crc1/X36_1I224)                                                 | 96    |
+nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/host_rd_data<0>(nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/XST_GND:G)                                                                                                                                                                                 | NONE(nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/G_RX.rxgen/g_is_eval.calculate_crc2/crc1/X36_1I224)                                                 | 96    |
+nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/host_rd_data<0>(nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/XST_GND:G)                                                                                                                                                                                 | NONE(nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/G_RX.rxgen/g_is_eval.calculate_crc2/crc1/X36_1I224)                                                 | 96    |
+nf10_axis_gen_check_0/nf10_axis_gen_check_0/aresetn_inv(nf10_axis_gen_check_0/nf10_axis_gen_check_0/aresetn_inv1_INV_0:O)                                                                                                                                                                                                | NONE(nf10_axis_gen_check_0/nf10_axis_gen_check_0/err_count_0)                                                                                                   | 66    |
+nf10_axis_gen_check_1/nf10_axis_gen_check_1/aresetn_inv(nf10_axis_gen_check_1/nf10_axis_gen_check_1/aresetn_inv1_INV_0:O)                                                                                                                                                                                                | NONE(nf10_axis_gen_check_1/nf10_axis_gen_check_1/err_count_0)                                                                                                   | 66    |
+nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_reset_i(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_reset_i1:O)                                                                                                          | NONE(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0)                                       | 34    |
+nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_reset_i(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_reset_i1:O)                                                                                                          | NONE(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0)                                       | 34    |
+nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_reset_i(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_reset_i1:O)                                                                                                          | NONE(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0)                                       | 34    |
+nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_reset_i(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_reset_i1:O)                                                                                                          | NONE(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0)                                       | 34    |
+axi_interconnect_memory_mapped_lite_0/axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/INTERCONNECT_ARESETN_inv(axi_interconnect_memory_mapped_lite_0/axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/INTERCONNECT_ARESETN_inv1_INV_0:O)| NONE(axi_interconnect_memory_mapped_lite_0/axi_interconnect_memory_mapped_lite_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_reset_resync_0)| 24    |
+microblaze_0_bram_block/microblaze_0_bram_block/pgassign12<0>(microblaze_0_bram_block/microblaze_0_bram_block/XST_GND:G)                                                                                                                                                                                                 | NONE(microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0)                                                                                                  | 16    |
+nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_1(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1:Q)                                                                          | NONE(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6)                                      | 9     |
+nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_2(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2:Q)                                                                          | NONE(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17)                                     | 9     |
+nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_3(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3:Q)                                                                          | NONE(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0)                                        | 9     |
+nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_1(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1:Q)                                                                          | NONE(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6)                                      | 9     |
+nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_2(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2:Q)                                                                          | NONE(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17)                                     | 9     |
+nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_3(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3:Q)                                                                          | NONE(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0)                                        | 9     |
+nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_1(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1:Q)                                                                          | NONE(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6)                                      | 9     |
+nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_2(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2:Q)                                                                          | NONE(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17)                                     | 9     |
+nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_3(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3:Q)                                                                          | NONE(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0)                                        | 9     |
+nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_1(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_1:Q)                                                                          | NONE(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_6)                                      | 9     |
+nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_2(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_2:Q)                                                                          | NONE(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0_17)                                     | 9     |
+nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile0_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r<0>_3(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxusrclk2_r_0_3:Q)                                                                          | NONE(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/reset_rxrecclk_r_0)                                        | 9     |
+nf10_10g_interface_0/N1(nf10_10g_interface_0/XST_VCC:P)                                                                                                                                                                                                                                                                  | NONE(nf10_10g_interface_0/nf10_10g_interface_0/rx_queue/rx_fifo)                                                                                                | 8     |
+nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/int_flow_ctrl_rx_rst_asynch(nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/int_flow_ctrl_rx_rst_asynch1:O)                                                                                                                                                | NONE(nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/G_RX_RESET.sync_flow_ctrl_rx_reset_i/r1)                                                            | 8     |
+nf10_10g_interface_1/N1(nf10_10g_interface_1/XST_VCC:P)                                                                                                                                                                                                                                                                  | NONE(nf10_10g_interface_1/nf10_10g_interface_1/rx_queue/rx_fifo)                                                                                                | 8     |
+nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/int_flow_ctrl_rx_rst_asynch(nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/int_flow_ctrl_rx_rst_asynch1:O)                                                                                                                                                | NONE(nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/G_RX_RESET.sync_flow_ctrl_rx_reset_i/r1)                                                            | 8     |
+nf10_10g_interface_2/N1(nf10_10g_interface_2/XST_VCC:P)                                                                                                                                                                                                                                                                  | NONE(nf10_10g_interface_2/nf10_10g_interface_2/rx_queue/rx_fifo)                                                                                                | 8     |
+nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/int_flow_ctrl_rx_rst_asynch(nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/int_flow_ctrl_rx_rst_asynch1:O)                                                                                                                                                | NONE(nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/G_RX_RESET.sync_flow_ctrl_rx_reset_i/r1)                                                            | 8     |
+nf10_10g_interface_3/N1(nf10_10g_interface_3/XST_VCC:P)                                                                                                                                                                                                                                                                  | NONE(nf10_10g_interface_3/nf10_10g_interface_3/rx_queue/rx_fifo)                                                                                                | 8     |
+nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/int_flow_ctrl_rx_rst_asynch(nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/int_flow_ctrl_rx_rst_asynch1:O)                                                                                                                                                | NONE(nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/G_RX_RESET.sync_flow_ctrl_rx_reset_i/r1)                                                            | 8     |
+nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/clk_156_reset_txsync_r3(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/clk_156_reset_txsync_r3:Q)                                                                                                                                                             | NONE(nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/tile1_tx_sync_i/reset_dclk_r_0)                                                                       | 4     |
+nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/int_rx_rst_asynch(nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/int_rx_rst_asynch1:O)                                                                                                                                                                    | NONE(nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/G_RX_RESET.sync_rx_reset_i/r1)                                                                      | 4     |
+nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/int_tx_rst_asynch(nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/int_tx_rst_asynch1:O)                                                                                                                                                                    | NONE(nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/G_TX_RESET.sync_tx_reset_i/r1)                                                                      | 4     |
+nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/clk_156_reset_txsync_r3(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/clk_156_reset_txsync_r3:Q)                                                                                                                                                             | NONE(nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/tile1_tx_sync_i/reset_dclk_r_0)                                                                       | 4     |
+nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/int_rx_rst_asynch(nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/int_rx_rst_asynch1:O)                                                                                                                                                                    | NONE(nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/G_RX_RESET.sync_rx_reset_i/r1)                                                                      | 4     |
+nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/int_tx_rst_asynch(nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/int_tx_rst_asynch1:O)                                                                                                                                                                    | NONE(nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/G_TX_RESET.sync_tx_reset_i/r1)                                                                      | 4     |
+nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/clk_156_reset_txsync_r3(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/clk_156_reset_txsync_r3:Q)                                                                                                                                                             | NONE(nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/tile1_tx_sync_i/reset_dclk_r_0)                                                                       | 4     |
+nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/int_rx_rst_asynch(nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/int_rx_rst_asynch1:O)                                                                                                                                                                    | NONE(nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/G_RX_RESET.sync_rx_reset_i/r1)                                                                      | 4     |
+nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/int_tx_rst_asynch(nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/int_tx_rst_asynch1:O)                                                                                                                                                                    | NONE(nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/G_TX_RESET.sync_tx_reset_i/r1)                                                                      | 4     |
+nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/clk_156_reset_txsync_r3(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/clk_156_reset_txsync_r3:Q)                                                                                                                                                             | NONE(nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/tile1_tx_sync_i/reset_dclk_r_0)                                                                       | 4     |
+nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/int_rx_rst_asynch(nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/int_rx_rst_asynch1:O)                                                                                                                                                                    | NONE(nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/G_RX_RESET.sync_rx_reset_i/r1)                                                                      | 4     |
+nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/int_tx_rst_asynch(nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/int_tx_rst_asynch1:O)                                                                                                                                                                    | NONE(nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/G_TX_RESET.sync_tx_reset_i/r1)                                                                      | 4     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 5.086ns (Maximum Frequency: 196.628MHz)
+   Minimum input arrival time before clock: 1.481ns
+   Maximum output required time after clock: 3.548ns
+   Maximum combinational path delay: 1.196ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT1'
+  Clock period: 4.185ns (frequency: 238.961MHz)
+  Total number of paths / destination ports: 9855 / 1787
+-------------------------------------------------------------------------
+Delay:               4.185ns (Levels of Logic = 7)
+  Source:            axi_interconnect_memory_mapped_lite_0/axi_interconnect_memory_mapped_lite_0/mi_protocol_conv_bank/gen_protocol_slot[0].gen_axilite.axilite_conv_inst/write_active (FF)
+  Destination:       nf10_mdio_0/nf10_mdio_0/I_AXI_NATIVE_IPIF/bus2ip_addr_i_7 (FF)
+  Source Clock:      clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT1 rising
+  Destination Clock: clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT1 rising
+
+  Data Path: axi_interconnect_memory_mapped_lite_0/axi_interconnect_memory_mapped_lite_0/mi_protocol_conv_bank/gen_protocol_slot[0].gen_axilite.axilite_conv_inst/write_active to nf10_mdio_0/nf10_mdio_0/I_AXI_NATIVE_IPIF/bus2ip_addr_i_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             42   0.396   0.771  axi_interconnect_memory_mapped_lite_0/mi_protocol_conv_bank/gen_protocol_slot[0].gen_axilite.axilite_conv_inst/write_active (axi_interconnect_memory_mapped_lite_0/mi_protocol_conv_bank/gen_protocol_slot[0].gen_axilite.axilite_conv_inst/write_active)
+     LUT4:I0->O           32   0.086   1.009  axi_interconnect_memory_mapped_lite_0/mi_protocol_conv_bank/gen_protocol_slot[0].gen_axilite.axilite_conv_inst/read_req1 (M_AXI_ARVALID<0>)
+     end scope: 'axi_interconnect_memory_mapped_lite_0'
+     begin scope: 'nf10_mdio_0'
+     LUT6:I0->O            1   0.086   0.000  nf10_mdio_0/I_AXI_NATIVE_IPIF/rd_burst_SW3_G (N73)
+     MUXF7:I1->O           1   0.214   0.600  nf10_mdio_0/I_AXI_NATIVE_IPIF/rd_burst_SW3 (N25)
+     LUT6:I3->O            1   0.086   0.000  nf10_mdio_0/I_AXI_NATIVE_IPIF/bus2ip_addr_i_not00011_G (N81)
+     MUXF7:I1->O           9   0.214   0.637  nf10_mdio_0/I_AXI_NATIVE_IPIF/bus2ip_addr_i_not00011 (nf10_mdio_0/I_AXI_NATIVE_IPIF/bus2ip_addr_i_not0001)
+     LUT3:I0->O            1   0.086   0.000  nf10_mdio_0/I_AXI_NATIVE_IPIF/bus2ip_addr_i_7_rstpot1 (nf10_mdio_0/I_AXI_NATIVE_IPIF/bus2ip_addr_i_7_rstpot)
+     FDR:D                    -0.022          nf10_mdio_0/I_AXI_NATIVE_IPIF/bus2ip_addr_i_7
+    ----------------------------------------
+    Total                      4.185ns (1.168ns logic, 3.017ns route)
+                                       (27.9% logic, 72.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'N0'
+  Clock period: 2.683ns (frequency: 372.724MHz)
+  Total number of paths / destination ports: 2112 / 128
+-------------------------------------------------------------------------
+Delay:               2.683ns (Levels of Logic = 34)
+  Source:            nf10_axis_gen_check_1/nf10_axis_gen_check_1/err_count_0 (FF)
+  Destination:       nf10_axis_gen_check_1/nf10_axis_gen_check_1/err_count_31 (FF)
+  Source Clock:      N0 rising
+  Destination Clock: N0 rising
+
+  Data Path: nf10_axis_gen_check_1/nf10_axis_gen_check_1/err_count_0 to nf10_axis_gen_check_1/nf10_axis_gen_check_1/err_count_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              2   0.396   0.290  nf10_axis_gen_check_1/err_count_0 (nf10_axis_gen_check_1/err_count<0>)
+     INV:I->O              1   0.212   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_lut<0>_INV_0 (nf10_axis_gen_check_1/Madd_err_count_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<0> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<1> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<2> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<3> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<4> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<5> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<6> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<7> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<8> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<9> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<10> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<11> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<12> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<13> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<14> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<15> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<16> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<17> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<18> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<19> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<20> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<21> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<22> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<23> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<24> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<25> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<26> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<27> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<28> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<29> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<29>)
+     MUXCY:CI->O           0   0.023   0.000  nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<30> (nf10_axis_gen_check_1/Madd_err_count_addsub0000_cy<30>)
+     XORCY:CI->O           1   0.300   0.412  nf10_axis_gen_check_1/Madd_err_count_addsub0000_xor<31> (nf10_axis_gen_check_1/err_count_addsub0000<31>)
+     LUT2:I1->O            1   0.086   0.000  nf10_axis_gen_check_1/err_count_mux0000<0>1 (nf10_axis_gen_check_1/err_count_mux0000<0>)
+     FDC:D                    -0.022          nf10_axis_gen_check_1/err_count_31
+    ----------------------------------------
+    Total                      2.683ns (1.982ns logic, 0.701ns route)
+                                       (73.9% logic, 26.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'nf10_10g_interface_3/nf10_10g_interface_3/txoutclk'
+  Clock period: 5.086ns (frequency: 196.628MHz)
+  Total number of paths / destination ports: 60833 / 7673
+-------------------------------------------------------------------------
+Delay:               5.086ns (Levels of Logic = 10)
+  Source:            nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 (FF)
+  Destination:       nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0 (FF)
+  Source Clock:      nf10_10g_interface_3/nf10_10g_interface_3/txoutclk rising
+  Destination Clock: nf10_10g_interface_3/nf10_10g_interface_3/txoutclk rising
+
+  Data Path: nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 to nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             13   0.396   0.957  G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 (G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg<6>)
+     LUT6:I0->O            1   0.086   0.600  G_TX.txgen/tx_controller_inst/ifg_control_inst/lane_count_ones_eof<0>1_SW2 (N373)
+     LUT3:I0->O            5   0.086   0.680  G_TX.txgen/tx_controller_inst/ifg_control_inst/lane_count_ones_eof<0>1 (G_TX.txgen/tx_controller_inst/ifg_control_inst/N20)
+     LUT5:I1->O            1   0.086   0.412  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0>_SW0 (N527)
+     LUT6:I5->O            1   0.086   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<0> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<1> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<2> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<2>)
+     MUXCY:CI->O           0   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<3> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<3>)
+     XORCY:CI->O           3   0.300   0.421  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_xor<4> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifs_remainder_comb<4>)
+     LUT3:I2->O           11   0.086   0.332  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_en1 (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_en)
+     FDRE:CE                   0.185          G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0
+    ----------------------------------------
+    Total                      5.086ns (1.684ns logic, 3.401ns route)
+                                       (33.1% logic, 66.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT0'
+  Clock period: 4.428ns (frequency: 225.832MHz)
+  Total number of paths / destination ports: 205722 / 4574
+-------------------------------------------------------------------------
+Delay:               4.428ns (Levels of Logic = 39)
+  Source:            microblaze_0/microblaze_0/Performance.Decode_I/ex_alu_sel_logic_i (FF)
+  Destination:       microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0 (RAM)
+  Source Clock:      clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT0 rising
+  Destination Clock: clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT0 rising
+
+  Data Path: microblaze_0/microblaze_0/Performance.Decode_I/ex_alu_sel_logic_i to microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDSE:C->Q            34   0.396   0.708  microblaze_0/Performance.Decode_I/ex_alu_sel_logic_i (microblaze_0/Performance.Decode_I/ex_alu_sel_logic_i)
+     LUT4:I1->O            0   0.086   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/ex_subtract_op1 (microblaze_0/Performance.Data_Flow_I/ALU_I/ex_subtract_op)
+     MUXCY_L:DI->LO        1   0.298   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.Use_Carry_Decoding.CarryIn_MUXCY (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<32>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[31].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<31>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[30].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<30>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[29].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<29>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[28].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<28>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[27].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<27>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[26].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<26>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[25].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<25>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[24].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<24>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[23].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<23>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[22].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<22>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[21].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<21>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[20].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<20>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[19].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<19>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[18].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<18>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[17].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<17>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[16].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<16>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[15].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<15>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[14].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<14>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[13].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<13>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[12].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<12>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[11].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<11>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[10].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<10>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[9].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<9>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[8].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<8>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[7].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<7>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[6].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<6>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[5].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<5>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[4].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<4>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[3].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<3>)
+     MUXCY_L:CI->LO        1   0.023   0.000  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[2].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.MUXCY_I (microblaze_0/Performance.Data_Flow_I/ALU_I/alu_carry<2>)
+     XORCY:CI->O           9   0.300   0.449  microblaze_0/Performance.Data_Flow_I/ALU_I/FPGA_Target.ALL_Bits[1].ALU_Bit_I1/Using_FPGA_LUT6.Not_Last_Bit.XOR_I (DATA_ADDR<1>)
+     LUT3:I2->O            6   0.086   0.510  microblaze_0/Performance.Decode_I/PC_Module_I/new_pc<1>1 (INSTR_ADDR<1>)
+     end scope: 'microblaze_0'
+     begin scope: 'microblaze_0_ilmb'
+     end scope: 'microblaze_0_ilmb'
+     begin scope: 'microblaze_0_i_bram_ctrl'
+     LUT3:I1->O            8   0.086   0.318  microblaze_0_i_bram_ctrl/lmb_we_3_and00001 (BRAM_WEN_A<3>)
+     end scope: 'microblaze_0_i_bram_ctrl'
+     begin scope: 'microblaze_0_bram_block'
+     begin scope: 'microblaze_0_bram_block'
+     RAMB36_EXP:WEAU0          0.509          ramb36_3
+    ----------------------------------------
+    Total                      4.428ns (2.443ns logic, 1.985ns route)
+                                       (55.2% logic, 44.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1'
+  Clock period: 3.114ns (frequency: 321.105MHz)
+  Total number of paths / destination ports: 4505 / 679
+-------------------------------------------------------------------------
+Delay:               3.114ns (Levels of Logic = 4)
+  Source:            nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 (FF)
+  Destination:       nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_0 (FF)
+  Source Clock:      nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1 rising
+  Destination Clock: nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1 rising
+
+  Data Path: nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 to nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             7   0.396   0.847  nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 (nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState<1>)
+     LUT5:I0->O            8   0.086   0.933  nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_1<0>21 (nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/N17)
+     LUT6:I0->O            1   0.086   0.000  nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_0<0>1_F (N361)
+     MUXF7:I0->O          13   0.213   0.468  nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_0<0>1 (nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_mux_0_i<0>)
+     LUT6:I5->O            1   0.086   0.000  nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_d<9>1 (nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_d<9>)
+     FDR:D                    -0.022          nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_9
+    ----------------------------------------
+    Total                      3.114ns (0.867ns logic, 2.247ns route)
+                                       (27.8% logic, 72.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT2'
+  Clock period: 3.785ns (frequency: 264.183MHz)
+  Total number of paths / destination ports: 34642 / 5022
+-------------------------------------------------------------------------
+Delay:               3.785ns (Levels of Logic = 10)
+  Source:            nf10_10g_interface_1/nf10_10g_interface_1/converter_master/input_fifo/dout_valid (FF)
+  Destination:       nf10_10g_interface_2/nf10_10g_interface_2/converter_slave/input_fifo/fifo/depth_8 (FF)
+  Source Clock:      clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT2 rising
+  Destination Clock: clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT2 rising
+
+  Data Path: nf10_10g_interface_1/nf10_10g_interface_1/converter_master/input_fifo/dout_valid to nf10_10g_interface_2/nf10_10g_interface_2/converter_slave/input_fifo/fifo/depth_8
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRSE:C->Q           12   0.396   0.952  nf10_10g_interface_1/converter_master/input_fifo/dout_valid (nf10_10g_interface_1/converter_master/input_fifo/dout_valid)
+     LUT6:I0->O           11   0.086   0.865  nf10_10g_interface_1/converter_master/m_axis_tvalid1 (m_axis_tvalid)
+     end scope: 'nf10_10g_interface_1'
+     begin scope: 'nf10_10g_interface_2'
+     LUT5:I0->O            5   0.086   0.618  nf10_10g_interface_2/converter_slave/input_fifo/fifo_rd_en35_SW4 (N299)
+     LUT6:I3->O            1   0.086   0.000  nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_lut<3> (nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_lut<3>)
+     MUXCY:S->O            1   0.305   0.000  nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<3> (nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<4> (nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<5> (nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<6> (nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<6>)
+     MUXCY:CI->O           0   0.023   0.000  nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<7> (nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_cy<7>)
+     XORCY:CI->O           1   0.300   0.000  nf10_10g_interface_2/converter_slave/input_fifo/fifo/Mcount_depth_xor<8> (nf10_10g_interface_2/converter_slave/input_fifo/fifo/Result<8>)
+     FDRE:D                   -0.022          nf10_10g_interface_2/converter_slave/input_fifo/fifo/depth_8
+    ----------------------------------------
+    Total                      3.785ns (1.350ns logic, 2.435ns route)
+                                       (35.7% logic, 64.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'nf10_10g_interface_2/nf10_10g_interface_2/txoutclk'
+  Clock period: 5.086ns (frequency: 196.628MHz)
+  Total number of paths / destination ports: 60833 / 7673
+-------------------------------------------------------------------------
+Delay:               5.086ns (Levels of Logic = 10)
+  Source:            nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 (FF)
+  Destination:       nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0 (FF)
+  Source Clock:      nf10_10g_interface_2/nf10_10g_interface_2/txoutclk rising
+  Destination Clock: nf10_10g_interface_2/nf10_10g_interface_2/txoutclk rising
+
+  Data Path: nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 to nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             13   0.396   0.957  G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 (G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg<6>)
+     LUT6:I0->O            1   0.086   0.600  G_TX.txgen/tx_controller_inst/ifg_control_inst/lane_count_ones_eof<0>1_SW2 (N373)
+     LUT3:I0->O            5   0.086   0.680  G_TX.txgen/tx_controller_inst/ifg_control_inst/lane_count_ones_eof<0>1 (G_TX.txgen/tx_controller_inst/ifg_control_inst/N20)
+     LUT5:I1->O            1   0.086   0.412  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0>_SW0 (N527)
+     LUT6:I5->O            1   0.086   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<0> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<1> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<2> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<2>)
+     MUXCY:CI->O           0   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<3> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<3>)
+     XORCY:CI->O           3   0.300   0.421  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_xor<4> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifs_remainder_comb<4>)
+     LUT3:I2->O           11   0.086   0.332  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_en1 (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_en)
+     FDRE:CE                   0.185          G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0
+    ----------------------------------------
+    Total                      5.086ns (1.684ns logic, 3.401ns route)
+                                       (33.1% logic, 66.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1'
+  Clock period: 3.114ns (frequency: 321.105MHz)
+  Total number of paths / destination ports: 4505 / 679
+-------------------------------------------------------------------------
+Delay:               3.114ns (Levels of Logic = 4)
+  Source:            nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 (FF)
+  Destination:       nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_0 (FF)
+  Source Clock:      nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1 rising
+  Destination Clock: nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1 rising
+
+  Data Path: nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 to nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             7   0.396   0.847  nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 (nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState<1>)
+     LUT5:I0->O            8   0.086   0.933  nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_1<0>21 (nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/N17)
+     LUT6:I0->O            1   0.086   0.000  nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_0<0>1_F (N361)
+     MUXF7:I0->O          13   0.213   0.468  nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_0<0>1 (nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_mux_0_i<0>)
+     LUT6:I5->O            1   0.086   0.000  nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_d<9>1 (nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_d<9>)
+     FDR:D                    -0.022          nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_9
+    ----------------------------------------
+    Total                      3.114ns (0.867ns logic, 2.247ns route)
+                                       (27.8% logic, 72.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'nf10_10g_interface_1/nf10_10g_interface_1/txoutclk'
+  Clock period: 5.086ns (frequency: 196.628MHz)
+  Total number of paths / destination ports: 60833 / 7673
+-------------------------------------------------------------------------
+Delay:               5.086ns (Levels of Logic = 10)
+  Source:            nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 (FF)
+  Destination:       nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0 (FF)
+  Source Clock:      nf10_10g_interface_1/nf10_10g_interface_1/txoutclk rising
+  Destination Clock: nf10_10g_interface_1/nf10_10g_interface_1/txoutclk rising
+
+  Data Path: nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 to nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             13   0.396   0.957  G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 (G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg<6>)
+     LUT6:I0->O            1   0.086   0.600  G_TX.txgen/tx_controller_inst/ifg_control_inst/lane_count_ones_eof<0>1_SW2 (N373)
+     LUT3:I0->O            5   0.086   0.680  G_TX.txgen/tx_controller_inst/ifg_control_inst/lane_count_ones_eof<0>1 (G_TX.txgen/tx_controller_inst/ifg_control_inst/N20)
+     LUT5:I1->O            1   0.086   0.412  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0>_SW0 (N527)
+     LUT6:I5->O            1   0.086   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<0> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<1> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<2> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<2>)
+     MUXCY:CI->O           0   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<3> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<3>)
+     XORCY:CI->O           3   0.300   0.421  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_xor<4> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifs_remainder_comb<4>)
+     LUT3:I2->O           11   0.086   0.332  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_en1 (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_en)
+     FDRE:CE                   0.185          G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0
+    ----------------------------------------
+    Total                      5.086ns (1.684ns logic, 3.401ns route)
+                                       (33.1% logic, 66.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1'
+  Clock period: 3.114ns (frequency: 321.105MHz)
+  Total number of paths / destination ports: 4505 / 679
+-------------------------------------------------------------------------
+Delay:               3.114ns (Levels of Logic = 4)
+  Source:            nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 (FF)
+  Destination:       nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_0 (FF)
+  Source Clock:      nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1 rising
+  Destination Clock: nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1 rising
+
+  Data Path: nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 to nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             7   0.396   0.847  nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 (nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState<1>)
+     LUT5:I0->O            8   0.086   0.933  nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_1<0>21 (nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/N17)
+     LUT6:I0->O            1   0.086   0.000  nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_0<0>1_F (N361)
+     MUXF7:I0->O          13   0.213   0.468  nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_0<0>1 (nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_mux_0_i<0>)
+     LUT6:I5->O            1   0.086   0.000  nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_d<9>1 (nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_d<9>)
+     FDR:D                    -0.022          nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_9
+    ----------------------------------------
+    Total                      3.114ns (0.867ns logic, 2.247ns route)
+                                       (27.8% logic, 72.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'nf10_10g_interface_0/nf10_10g_interface_0/txoutclk'
+  Clock period: 5.086ns (frequency: 196.628MHz)
+  Total number of paths / destination ports: 60833 / 7673
+-------------------------------------------------------------------------
+Delay:               5.086ns (Levels of Logic = 10)
+  Source:            nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 (FF)
+  Destination:       nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0 (FF)
+  Source Clock:      nf10_10g_interface_0/nf10_10g_interface_0/txoutclk rising
+  Destination Clock: nf10_10g_interface_0/nf10_10g_interface_0/txoutclk rising
+
+  Data Path: nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 to nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             13   0.396   0.957  G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg_6 (G_FLOWCONTROL.flwctrl/tx/data_avail_in_reg<6>)
+     LUT6:I0->O            1   0.086   0.600  G_TX.txgen/tx_controller_inst/ifg_control_inst/lane_count_ones_eof<0>1_SW2 (N373)
+     LUT3:I0->O            5   0.086   0.680  G_TX.txgen/tx_controller_inst/ifg_control_inst/lane_count_ones_eof<0>1 (G_TX.txgen/tx_controller_inst/ifg_control_inst/N20)
+     LUT5:I1->O            1   0.086   0.412  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0>_SW0 (N527)
+     LUT6:I5->O            1   0.086   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_lut<0>)
+     MUXCY:S->O            1   0.305   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<0> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<1> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<2> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<2>)
+     MUXCY:CI->O           0   0.023   0.000  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<3> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_cy<3>)
+     XORCY:CI->O           3   0.300   0.421  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/Madd_ifs_remainder_comb_Madd_xor<4> (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifs_remainder_comb<4>)
+     LUT3:I2->O           11   0.086   0.332  G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_en1 (G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_en)
+     FDRE:CE                   0.185          G_TX.txgen/tx_controller_inst/ifg_control_inst/ifg_calc/ifg_base_value_0
+    ----------------------------------------
+    Total                      5.086ns (1.684ns logic, 3.401ns route)
+                                       (33.1% logic, 66.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1'
+  Clock period: 3.114ns (frequency: 321.105MHz)
+  Total number of paths / destination ports: 4505 / 679
+-------------------------------------------------------------------------
+Delay:               3.114ns (Levels of Logic = 4)
+  Source:            nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 (FF)
+  Destination:       nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_0 (FF)
+  Source Clock:      nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1 rising
+  Destination Clock: nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i1 rising
+
+  Data Path: nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 to nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRS:C->Q             7   0.396   0.847  nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState_1 (nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/CurrentState<1>)
+     LUT5:I0->O            8   0.086   0.933  nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_1<0>21 (nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/N17)
+     LUT6:I0->O            1   0.086   0.000  nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_0<0>1_F (N361)
+     MUXF7:I0->O          13   0.213   0.468  nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_fsm_i/SEL_0<0>1 (nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_mux_0_i<0>)
+     LUT6:I5->O            1   0.086   0.000  nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_d<9>1 (nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_d<9>)
+     FDR:D                    -0.022          nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_gtp0_cc_2b_1skp_i/write_data_path_i/data_s2_0_9
+    ----------------------------------------
+    Total                      3.114ns (0.867ns logic, 2.247ns route)
+                                       (27.8% logic, 72.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT1'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              1.481ns (Levels of Logic = 3)
+  Source:            RESET (PAD)
+  Destination:       reset_0/reset_0/EXT_LPF/exr_d1 (FF)
+  Destination Clock: clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT1 rising
+
+  Data Path: RESET to reset_0/reset_0/EXT_LPF/exr_d1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.694   0.290  RESET_IBUF (RESET_IBUF)
+     begin scope: 'reset_0'
+     INV:I->O              1   0.212   0.286  reset_0/EXT_LPF/exr_d1_or000011_INV_0 (reset_0/EXT_LPF/exr_d1_or00001)
+     FDS:D                    -0.022          reset_0/EXT_LPF/exr_d1
+    ----------------------------------------
+    Total                      1.481ns (0.906ns logic, 0.575ns route)
+                                       (61.2% logic, 38.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT1'
+  Total number of paths / destination ports: 6 / 4
+-------------------------------------------------------------------------
+Offset:              3.548ns (Levels of Logic = 4)
+  Source:            axi_interconnect_memory_mapped_lite_0/axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_reset_pipe_2 (FF)
+  Destination:       PHY_RST_N (PAD)
+  Source Clock:      clock_generator_0/clock_generator_0/SIG_PLL0_CLKOUT1 rising
+
+  Data Path: axi_interconnect_memory_mapped_lite_0/axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_reset_pipe_2 to PHY_RST_N
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             89   0.396   0.403  axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_reset_pipe_2 (axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_reset_pipe<2>)
+     INV:I->O             31   0.212   0.394  axi_interconnect_memory_mapped_lite_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/INTERCONNECT_RESET_OUT_N1_INV_0 (M_AXI_ARESET_OUT_N<0>)
+     end scope: 'axi_interconnect_memory_mapped_lite_0'
+     begin scope: 'nf10_mdio_0'
+     end scope: 'nf10_mdio_0'
+     OBUF:I->O                 2.144          PHY_RST_N_OBUF (PHY_RST_N)
+    ----------------------------------------
+    Total                      3.548ns (2.752ns logic, 0.796ns route)
+                                       (77.6% logic, 22.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               1.196ns (Levels of Logic = 3)
+  Source:            RESET (PAD)
+  Destination:       clock_generator_0/clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst:RST (PAD)
+
+  Data Path: RESET to clock_generator_0/clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst:RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.694   0.290  RESET_IBUF (RESET_IBUF)
+     begin scope: 'clock_generator_0'
+     INV:I->O              0   0.212   0.000  clock_generator_0/PLL0_INST/rsti1_INV_0 (clock_generator_0/PLL0_INST/rsti)
+    PLL_ADV:RST                0.000          clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst
+    ----------------------------------------
+    Total                      1.196ns (0.906ns logic, 0.290ns route)
+                                       (75.8% logic, 24.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 58.00 secs
+Total CPU time to Xst completion: 57.31 secs
+ 
+--> 
+
+
+Total memory usage is 912812 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :   85 (   0 filtered)
+

@@ -1,0 +1,402 @@
+--------------------------------------------------------------------------------
+Release 13.4 Trace  (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/trce -e 3 -xml system.twx
+system.ncd system.pcf
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,package,speed:     xc5vtx240t,ff1759,-2 (PRODUCTION 1.73 2012-01-07, STEPPING level 0)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/
+G_TX_RESET.sync_tx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   2.863ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/
+G_TX_RESET.sync_flow_ctrl_tx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.735ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/
+G_RX_RESET.sync_rx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.521ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/
+G_TX_RESET.sync_tx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   2.780ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/
+G_TX_RESET.sync_flow_ctrl_tx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.528ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/
+G_RX_RESET.sync_rx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   2.091ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_2/nf10_10g_interface_2/xgmac/BU2/U0/
+G_RX_RESET.sync_flow_ctrl_rx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.975ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/
+G_TX_RESET.sync_tx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.922ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/
+G_TX_RESET.sync_flow_ctrl_tx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.693ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/
+G_RX_RESET.sync_rx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   2.294ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_1/nf10_10g_interface_1/xgmac/BU2/U0/
+G_RX_RESET.sync_flow_ctrl_rx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.763ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/
+G_TX_RESET.sync_tx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   3.698ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/
+G_TX_RESET.sync_flow_ctrl_tx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   1.829ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET         
+"nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/
+G_RX_RESET.sync_rx_reset_i/reset_out"         MAXDELAY = 4.5 ns;
+
+ 1 net analyzed, 0 failing nets detected.
+ 0 timing errors detected.
+ Maximum net delay is   2.181ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "TS_TIG_microblaze_0_dlmb_POR_FF_I_path" TIG;
+
+ 1 path analyzed, 1 endpoint analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "TS_TIG_microblaze_0_ilmb_POR_FF_I_path" TIG;
+
+ 1 path analyzed, 1 endpoint analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   4.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk156_top = PERIOD TIMEGRP "clk156_top" 156.25 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 170700 paths analyzed, 37690 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.224ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk156_rec = PERIOD TIMEGRP "clk156_rec" 156.25 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 21208 paths analyzed, 6112 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.228ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "TS_mac0_xgmac_ifg_false_paths_thru_1_path" TIG;
+
+ 2464 paths analyzed, 4 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "TS_mac1_xgmac_ifg_false_paths_thru_1_path" TIG;
+
+ 2464 paths analyzed, 4 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "TS_mac2_xgmac_ifg_false_paths_thru_1_path" TIG;
+
+ 2464 paths analyzed, 4 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "TS_mac3_xgmac_ifg_false_paths_thru_1_path" TIG;
+
+ 2464 paths analyzed, 4 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0 = 
+PERIOD TIMEGRP         "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0" 
+TS_sys_clk_pin         HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 148750 paths analyzed, 8096 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.765ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT1 = 
+PERIOD TIMEGRP         "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT1" 
+TS_sys_clk_pin         * 0.5 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 11720 paths analyzed, 2731 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  13.104ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2 = 
+PERIOD TIMEGRP         "clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT2" 
+TS_sys_clk_pin         * 2 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 26638 paths analyzed, 6972 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.862ns.
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_sys_clk_pin
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_pin                 |     10.000ns|      4.000ns|      9.724ns|            0|            0|            0|       187108|
+| TS_clock_generator_0_clock_gen|     10.000ns|      6.765ns|          N/A|            0|            0|       148750|            0|
+| erator_0_SIG_PLL0_CLKOUT0     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|     20.000ns|     13.104ns|          N/A|            0|            0|        11720|            0|
+| erator_0_SIG_PLL0_CLKOUT1     |             |             |             |             |             |             |             |
+| TS_clock_generator_0_clock_gen|      5.000ns|      4.862ns|          N/A|            0|            0|        26638|            0|
+| erator_0_SIG_PLL0_CLKOUT2     |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    8.460|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock refclk_A_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+refclk_A_n     |    6.224|         |         |         |
+refclk_A_p     |    6.224|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock refclk_A_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+refclk_A_n     |    6.224|         |         |         |
+refclk_A_p     |    6.224|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock refclk_B_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+refclk_B_n     |    6.098|         |         |         |
+refclk_B_p     |    6.098|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock refclk_B_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+refclk_B_n     |    6.098|         |         |         |
+refclk_B_p     |    6.098|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock refclk_C_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+refclk_C_n     |    5.936|         |         |         |
+refclk_C_p     |    5.936|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock refclk_C_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+refclk_C_n     |    5.936|         |         |         |
+refclk_C_p     |    5.936|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock refclk_D_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+refclk_D_n     |    6.082|         |         |         |
+refclk_D_p     |    6.082|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock refclk_D_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+refclk_D_n     |    6.082|         |         |         |
+refclk_D_p     |    6.082|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 388874 paths, 14 nets, and 84798 connections
+
+Design statistics:
+   Minimum period:  13.104ns   (Maximum frequency:  76.313MHz)
+   Maximum net delay:   3.698ns
+
+
+Analysis completed Wed Sep  9 18:10:11 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1096 MB
+
+
+

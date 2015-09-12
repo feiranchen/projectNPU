@@ -1,0 +1,13 @@
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc5vtx240tff1759-2
+-top diff_input_buf_3_wrapper
+-ifmt MIXED
+-ifn diff_input_buf_3_wrapper_xst.prj
+-ofn ../implementation/diff_input_buf_3_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation}
+-vlgincdir {"/root/NetFPGA-10G-live-release_5.0.7/projects/loopback_test/hw/pcores/" "/root/NetFPGA-10G-live-release_5.0.7/lib/hw/contrib/pcores/" "/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/" "/root/NetFPGA-10G-live-release_5.0.7/lib/hw/xilinx/pcores/" "/opt/Xilinx/13.4/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/13.4/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }

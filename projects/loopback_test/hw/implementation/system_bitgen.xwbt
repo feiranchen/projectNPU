@@ -1,0 +1,7 @@
+INFILE=/root/NetFPGA-10G-live-release_5.0.7/projects/loopback_test/hw/implementation/system.ncd
+OUTFILE=/root/NetFPGA-10G-live-release_5.0.7/projects/loopback_test/hw/implementation/system.bit
+FAMILY=Virtex5
+PART=xc5vtx240t-2ff1759
+WORKINGDIR=/root/NetFPGA-10G-live-release_5.0.7/projects/loopback_test/hw/implementation
+LICENSE=ISE
+USER_INFO=176523041_210292036_210601171_561

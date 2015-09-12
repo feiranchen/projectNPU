@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/root/NetFPGA-10G-live-release_5.0.7/projects/loopback_test/sw/embedded/impact.xsl
+OUTFILE=/root/NetFPGA-10G-live-release_5.0.7/projects/loopback_test/sw/embedded/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/root/NetFPGA-10G-live-release_5.0.7/projects/loopback_test/sw/embedded
+LICENSE=iMPACT
+USER_INFO=iMPACT

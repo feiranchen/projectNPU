@@ -1,0 +1,916 @@
+Release 13.4 Map O.87xd (lin64)
+Xilinx Map Application Log File for Design 'system'
+
+Design Information
+------------------
+Command Line   : map -mt 4 -o system_map.ncd -w -pr b -ol high -timing -detail
+system.ngd system.pcf 
+Target Device  : xc5vtx240t
+Target Package : ff1759
+Target Speed   : -2
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Wed Sep  9 18:02:10 2015
+
+Mapping design into LUTs...
+WARNING:MapLib:41 - All members of TNM group "mac3_flow_grp" have been optimized
+   out of the design.
+WARNING:MapLib:41 - All members of TNM group "mac2_flow_grp" have been optimized
+   out of the design.
+WARNING:MapLib:41 - All members of TNM group "mac1_flow_grp" have been optimized
+   out of the design.
+WARNING:MapLib:41 - All members of TNM group "mac0_flow_grp" have been optimized
+   out of the design.
+WARNING:MapLib:39 - The timing specification "MAXDELAY=4500 pS" on net
+   "nf10_10g_interface_3/nf10_10g_interface_3/xgmac/BU2/U0/G_RX_RESET.sync_flow_
+   ctrl_rx_reset_i/reset_out" has been discarded, because the net was optimized
+   out of the design.
+WARNING:MapLib:39 - The timing specification "MAXDELAY=4500 pS" on net
+   "nf10_10g_interface_0/nf10_10g_interface_0/xgmac/BU2/U0/G_RX_RESET.sync_flow_
+   ctrl_rx_reset_i/reset_out" has been discarded, because the net was optimized
+   out of the design.
+WARNING:MapLib:48 - The timing specification "TS_mac0_flow" has been discarded
+   because its FROM group (mac0_flow_grp) was optimized away.
+WARNING:MapLib:48 - The timing specification "TS_mac1_flow" has been discarded
+   because its FROM group (mac1_flow_grp) was optimized away.
+WARNING:MapLib:48 - The timing specification "TS_mac2_flow" has been discarded
+   because its FROM group (mac2_flow_grp) was optimized away.
+WARNING:MapLib:48 - The timing specification "TS_mac3_flow" has been discarded
+   because its FROM group (mac3_flow_grp) was optimized away.
+Writing file system_map.ngm...
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0
+   of frag REGCLKAU connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0
+   of frag REGCLKAL connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0
+   of frag REGCLKBU connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0
+   of frag REGCLKBL connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_0_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_1
+   of frag REGCLKAU connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_1_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_1
+   of frag REGCLKAL connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_1_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_1
+   of frag REGCLKBU connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_1_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_1
+   of frag REGCLKBL connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_1_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_2
+   of frag REGCLKAU connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_2_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_2
+   of frag REGCLKAL connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_2_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_2
+   of frag REGCLKBU connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_2_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_2
+   of frag REGCLKBL connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_2_REGCLKBL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_3
+   of frag REGCLKAU connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_3_REGCLKAU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_3
+   of frag REGCLKAL connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_3_REGCLKAL_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_3
+   of frag REGCLKBU connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_3_REGCLKBU_tiesig
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_3
+   of frag REGCLKBL connected to power/ground net
+   microblaze_0_bram_block/microblaze_0_bram_block/ramb36_3_REGCLKBL_tiesig
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 48 secs 
+Total CPU  time at the beginning of Placer: 47 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:319bdd35) REAL time: 52 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:319bdd35) REAL time: 53 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:319bdd35) REAL time: 53 secs 
+
+Phase 4.37  Local Placement Optimization
+Phase 4.37  Local Placement Optimization (Checksum:319bdd35) REAL time: 53 secs 
+
+Phase 5.33  Local Placement Optimization
+Phase 5.33  Local Placement Optimization (Checksum:319bdd35) REAL time: 2 mins 
+
+Phase 6.32  Local Placement Optimization
+Phase 6.32  Local Placement Optimization (Checksum:319bdd35) REAL time: 2 mins 1 secs 
+
+Phase 7.2  Initial Clock and IO Placement
+
+Phase 7.2  Initial Clock and IO Placement (Checksum:e7da70c8) REAL time: 2 mins 3 secs 
+
+Phase 8.36  Local Placement Optimization
+Phase 8.36  Local Placement Optimization (Checksum:e7da70c8) REAL time: 2 mins 3 secs 
+
+..........................................................................................................................................
+Phase 9.30  Global Clock Region Assignment
+
+
+######################################################################################
+# GLOBAL CLOCK NET DISTRIBUTION UCF REPORT:
+#
+# Number of Global Clock Regions : 24
+# Number of Global Clock Networks: 11
+#
+# Clock Region Assignment: SUCCESSFUL
+
+# Location of Clock Components
+INST "nf10_10g_interface_1/nf10_10g_interface_1/clk156_bufg" LOC = "BUFGCTRL_X0Y25" ;
+INST "clock_generator_0/clock_generator_0/PLL0_CLKOUT0_BUFG_INST" LOC = "BUFGCTRL_X0Y0" ;
+INST "nf10_10g_interface_2/nf10_10g_interface_2/clk156_bufg" LOC = "BUFGCTRL_X0Y28" ;
+INST "clock_generator_0/clock_generator_0/PLL0_CLKOUT1_BUFG_INST" LOC = "BUFGCTRL_X0Y1" ;
+INST "nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i_BUFG" LOC = "BUFGCTRL_X0Y27" ;
+INST "nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i_BUFG" LOC = "BUFGCTRL_X0Y24" ;
+INST "nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i_BUFG" LOC = "BUFGCTRL_X0Y29" ;
+INST "nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i_BUFG" LOC = "BUFGCTRL_X0Y31" ;
+INST "nf10_10g_interface_0/nf10_10g_interface_0/clk156_bufg" LOC = "BUFGCTRL_X0Y26" ;
+INST "clock_generator_0/clock_generator_0/PLL0_CLKOUT2_BUFG_INST" LOC = "BUFGCTRL_X0Y2" ;
+INST "nf10_10g_interface_3/nf10_10g_interface_3/clk156_bufg" LOC = "BUFGCTRL_X0Y30" ;
+INST "CLK" LOC = "AN25" ;
+INST "refclk_A_n" LOC = "IPAD_X2Y52" ;
+INST "refclk_A_p" LOC = "IPAD_X2Y53" ;
+INST "refclk_B_n" LOC = "IPAD_X2Y64" ;
+INST "refclk_B_p" LOC = "IPAD_X2Y65" ;
+INST "refclk_C_n" LOC = "IPAD_X2Y76" ;
+INST "refclk_C_p" LOC = "IPAD_X2Y77" ;
+INST "refclk_D_n" LOC = "IPAD_X0Y76" ;
+INST "refclk_D_p" LOC = "IPAD_X0Y77" ;
+INST "nf10_10g_interface_0_xaui_rx_l0_n_pin" LOC = "IPAD_X2Y44" ;
+INST "nf10_10g_interface_0_xaui_rx_l0_p_pin" LOC = "IPAD_X2Y45" ;
+INST "nf10_10g_interface_0_xaui_rx_l1_n_pin" LOC = "IPAD_X2Y42" ;
+INST "nf10_10g_interface_0_xaui_rx_l1_p_pin" LOC = "IPAD_X2Y43" ;
+INST "nf10_10g_interface_0_xaui_rx_l2_n_pin" LOC = "IPAD_X2Y50" ;
+INST "nf10_10g_interface_0_xaui_rx_l2_p_pin" LOC = "IPAD_X2Y51" ;
+INST "nf10_10g_interface_0_xaui_rx_l3_n_pin" LOC = "IPAD_X2Y48" ;
+INST "nf10_10g_interface_0_xaui_rx_l3_p_pin" LOC = "IPAD_X2Y49" ;
+INST "nf10_10g_interface_1_xaui_rx_l0_n_pin" LOC = "IPAD_X2Y56" ;
+INST "nf10_10g_interface_1_xaui_rx_l0_p_pin" LOC = "IPAD_X2Y57" ;
+INST "nf10_10g_interface_1_xaui_rx_l1_n_pin" LOC = "IPAD_X2Y54" ;
+INST "nf10_10g_interface_1_xaui_rx_l1_p_pin" LOC = "IPAD_X2Y55" ;
+INST "nf10_10g_interface_1_xaui_rx_l2_n_pin" LOC = "IPAD_X2Y62" ;
+INST "nf10_10g_interface_1_xaui_rx_l2_p_pin" LOC = "IPAD_X2Y63" ;
+INST "nf10_10g_interface_1_xaui_rx_l3_n_pin" LOC = "IPAD_X2Y60" ;
+INST "nf10_10g_interface_1_xaui_rx_l3_p_pin" LOC = "IPAD_X2Y61" ;
+INST "nf10_10g_interface_2_xaui_rx_l0_n_pin" LOC = "IPAD_X2Y68" ;
+INST "nf10_10g_interface_2_xaui_rx_l0_p_pin" LOC = "IPAD_X2Y69" ;
+INST "nf10_10g_interface_2_xaui_rx_l1_n_pin" LOC = "IPAD_X2Y66" ;
+INST "nf10_10g_interface_2_xaui_rx_l1_p_pin" LOC = "IPAD_X2Y67" ;
+INST "nf10_10g_interface_2_xaui_rx_l2_n_pin" LOC = "IPAD_X2Y74" ;
+INST "nf10_10g_interface_2_xaui_rx_l2_p_pin" LOC = "IPAD_X2Y75" ;
+INST "nf10_10g_interface_2_xaui_rx_l3_n_pin" LOC = "IPAD_X2Y72" ;
+INST "nf10_10g_interface_2_xaui_rx_l3_p_pin" LOC = "IPAD_X2Y73" ;
+INST "nf10_10g_interface_3_xaui_rx_l0_n_pin" LOC = "IPAD_X0Y72" ;
+INST "nf10_10g_interface_3_xaui_rx_l0_p_pin" LOC = "IPAD_X0Y73" ;
+INST "nf10_10g_interface_3_xaui_rx_l1_n_pin" LOC = "IPAD_X0Y74" ;
+INST "nf10_10g_interface_3_xaui_rx_l1_p_pin" LOC = "IPAD_X0Y75" ;
+INST "nf10_10g_interface_3_xaui_rx_l2_n_pin" LOC = "IPAD_X0Y66" ;
+INST "nf10_10g_interface_3_xaui_rx_l2_p_pin" LOC = "IPAD_X0Y67" ;
+INST "nf10_10g_interface_3_xaui_rx_l3_n_pin" LOC = "IPAD_X0Y68" ;
+INST "nf10_10g_interface_3_xaui_rx_l3_p_pin" LOC = "IPAD_X0Y69" ;
+INST "nf10_10g_interface_0_xaui_tx_l0_n_pin" LOC = "OPAD_X1Y26" ;
+INST "nf10_10g_interface_0_xaui_tx_l0_p_pin" LOC = "OPAD_X1Y27" ;
+INST "nf10_10g_interface_0_xaui_tx_l1_n_pin" LOC = "OPAD_X1Y24" ;
+INST "nf10_10g_interface_0_xaui_tx_l1_p_pin" LOC = "OPAD_X1Y25" ;
+INST "nf10_10g_interface_0_xaui_tx_l2_n_pin" LOC = "OPAD_X1Y30" ;
+INST "nf10_10g_interface_0_xaui_tx_l2_p_pin" LOC = "OPAD_X1Y31" ;
+INST "nf10_10g_interface_0_xaui_tx_l3_n_pin" LOC = "OPAD_X1Y28" ;
+INST "nf10_10g_interface_0_xaui_tx_l3_p_pin" LOC = "OPAD_X1Y29" ;
+INST "nf10_10g_interface_1_xaui_tx_l0_n_pin" LOC = "OPAD_X1Y34" ;
+INST "nf10_10g_interface_1_xaui_tx_l0_p_pin" LOC = "OPAD_X1Y35" ;
+INST "nf10_10g_interface_1_xaui_tx_l1_n_pin" LOC = "OPAD_X1Y32" ;
+INST "nf10_10g_interface_1_xaui_tx_l1_p_pin" LOC = "OPAD_X1Y33" ;
+INST "nf10_10g_interface_1_xaui_tx_l2_n_pin" LOC = "OPAD_X1Y38" ;
+INST "nf10_10g_interface_1_xaui_tx_l2_p_pin" LOC = "OPAD_X1Y39" ;
+INST "nf10_10g_interface_1_xaui_tx_l3_n_pin" LOC = "OPAD_X1Y36" ;
+INST "nf10_10g_interface_1_xaui_tx_l3_p_pin" LOC = "OPAD_X1Y37" ;
+INST "nf10_10g_interface_2_xaui_tx_l0_n_pin" LOC = "OPAD_X1Y42" ;
+INST "nf10_10g_interface_2_xaui_tx_l0_p_pin" LOC = "OPAD_X1Y43" ;
+INST "nf10_10g_interface_2_xaui_tx_l1_n_pin" LOC = "OPAD_X1Y40" ;
+INST "nf10_10g_interface_2_xaui_tx_l1_p_pin" LOC = "OPAD_X1Y41" ;
+INST "nf10_10g_interface_2_xaui_tx_l2_n_pin" LOC = "OPAD_X1Y46" ;
+INST "nf10_10g_interface_2_xaui_tx_l2_p_pin" LOC = "OPAD_X1Y47" ;
+INST "nf10_10g_interface_2_xaui_tx_l3_n_pin" LOC = "OPAD_X1Y44" ;
+INST "nf10_10g_interface_2_xaui_tx_l3_p_pin" LOC = "OPAD_X1Y45" ;
+INST "nf10_10g_interface_3_xaui_tx_l0_n_pin" LOC = "OPAD_X0Y44" ;
+INST "nf10_10g_interface_3_xaui_tx_l0_p_pin" LOC = "OPAD_X0Y45" ;
+INST "nf10_10g_interface_3_xaui_tx_l1_n_pin" LOC = "OPAD_X0Y46" ;
+INST "nf10_10g_interface_3_xaui_tx_l1_p_pin" LOC = "OPAD_X0Y47" ;
+INST "nf10_10g_interface_3_xaui_tx_l2_n_pin" LOC = "OPAD_X0Y40" ;
+INST "nf10_10g_interface_3_xaui_tx_l2_p_pin" LOC = "OPAD_X0Y41" ;
+INST "nf10_10g_interface_3_xaui_tx_l3_n_pin" LOC = "OPAD_X0Y42" ;
+INST "nf10_10g_interface_3_xaui_tx_l3_p_pin" LOC = "OPAD_X0Y43" ;
+INST "clock_generator_0/clock_generator_0/PLL0_INST/Using_PLL_ADV.PLL_ADV_inst" LOC = "PLL_ADV_X0Y0" ;
+INST "nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rocketio_wrapper_i/USE_REVERSE_LANES.gtx_dual_i" LOC = "GTX_DUAL_X1Y7" ;
+INST "nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile0_rocketio_wrapper_i/USE_REVERSE_LANES.gtx_dual_i" LOC = "GTX_DUAL_X1Y6" ;
+INST "nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rocketio_wrapper_i/USE_REVERSE_LANES.gtx_dual_i" LOC = "GTX_DUAL_X1Y9" ;
+INST "nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile0_rocketio_wrapper_i/USE_REVERSE_LANES.gtx_dual_i" LOC = "GTX_DUAL_X1Y8" ;
+INST "nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rocketio_wrapper_i/USE_REVERSE_LANES.gtx_dual_i" LOC = "GTX_DUAL_X1Y11" ;
+INST "nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile0_rocketio_wrapper_i/USE_REVERSE_LANES.gtx_dual_i" LOC = "GTX_DUAL_X1Y10" ;
+INST "nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rocketio_wrapper_i/NO_REVERSE_LANES.gtx_dual_i" LOC = "GTX_DUAL_X0Y10" ;
+INST "nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile0_rocketio_wrapper_i/NO_REVERSE_LANES.gtx_dual_i" LOC = "GTX_DUAL_X0Y11" ;
+INST "diff_input_buf_2/diff_input_buf_2/U0" LOC = "BUFDS_X1Y11" ;
+INST "diff_input_buf_1/diff_input_buf_1/U0" LOC = "BUFDS_X1Y9" ;
+INST "diff_input_buf_0/diff_input_buf_0/U0" LOC = "BUFDS_X1Y7" ;
+INST "diff_input_buf_3/diff_input_buf_3/U0" LOC = "BUFDS_X0Y11" ;
+
+# nf10_10g_interface_1/nf10_10g_interface_1/clk156 driven by BUFGCTRL_X0Y25
+NET "nf10_10g_interface_1/nf10_10g_interface_1/clk156" TNM_NET = "TN_nf10_10g_interface_1/nf10_10g_interface_1/clk156" ;
+TIMEGRP "TN_nf10_10g_interface_1/nf10_10g_interface_1/clk156" AREA_GROUP = "CLKAG_nf10_10g_interface_1/nf10_10g_interface_1/clk156" ;
+AREA_GROUP "CLKAG_nf10_10g_interface_1/nf10_10g_interface_1/clk156" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7, CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# mb_clk driven by BUFGCTRL_X0Y0
+NET "mb_clk" TNM_NET = "TN_mb_clk" ;
+TIMEGRP "TN_mb_clk" AREA_GROUP = "CLKAG_mb_clk" ;
+AREA_GROUP "CLKAG_mb_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7, CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# nf10_10g_interface_2/nf10_10g_interface_2/clk156 driven by BUFGCTRL_X0Y28
+NET "nf10_10g_interface_2/nf10_10g_interface_2/clk156" TNM_NET = "TN_nf10_10g_interface_2/nf10_10g_interface_2/clk156" ;
+TIMEGRP "TN_nf10_10g_interface_2/nf10_10g_interface_2/clk156" AREA_GROUP = "CLKAG_nf10_10g_interface_2/nf10_10g_interface_2/clk156" ;
+AREA_GROUP "CLKAG_nf10_10g_interface_2/nf10_10g_interface_2/clk156" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7, CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# control_clk driven by BUFGCTRL_X0Y1
+NET "control_clk" TNM_NET = "TN_control_clk" ;
+TIMEGRP "TN_control_clk" AREA_GROUP = "CLKAG_control_clk" ;
+AREA_GROUP "CLKAG_control_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7 ;
+
+# nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i driven by BUFGCTRL_X0Y27
+NET "nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" TNM_NET = "TN_nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" ;
+TIMEGRP "TN_nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" AREA_GROUP = "CLKAG_nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" ;
+AREA_GROUP "CLKAG_nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7, CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i driven by BUFGCTRL_X0Y24
+NET "nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" TNM_NET = "TN_nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" ;
+TIMEGRP "TN_nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" AREA_GROUP = "CLKAG_nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" ;
+AREA_GROUP "CLKAG_nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7, CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i driven by BUFGCTRL_X0Y29
+NET "nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" TNM_NET = "TN_nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" ;
+TIMEGRP "TN_nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" AREA_GROUP = "CLKAG_nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" ;
+AREA_GROUP "CLKAG_nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7, CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i driven by BUFGCTRL_X0Y31
+NET "nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" TNM_NET = "TN_nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" ;
+TIMEGRP "TN_nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" AREA_GROUP = "CLKAG_nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" ;
+AREA_GROUP "CLKAG_nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i" RANGE =   CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# nf10_10g_interface_0/nf10_10g_interface_0/clk156 driven by BUFGCTRL_X0Y26
+NET "nf10_10g_interface_0/nf10_10g_interface_0/clk156" TNM_NET = "TN_nf10_10g_interface_0/nf10_10g_interface_0/clk156" ;
+TIMEGRP "TN_nf10_10g_interface_0/nf10_10g_interface_0/clk156" AREA_GROUP = "CLKAG_nf10_10g_interface_0/nf10_10g_interface_0/clk156" ;
+AREA_GROUP "CLKAG_nf10_10g_interface_0/nf10_10g_interface_0/clk156" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7, CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# core_clk driven by BUFGCTRL_X0Y2
+NET "core_clk" TNM_NET = "TN_core_clk" ;
+TIMEGRP "TN_core_clk" AREA_GROUP = "CLKAG_core_clk" ;
+AREA_GROUP "CLKAG_core_clk" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7, CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# nf10_10g_interface_3/nf10_10g_interface_3/clk156 driven by BUFGCTRL_X0Y30
+NET "nf10_10g_interface_3/nf10_10g_interface_3/clk156" TNM_NET = "TN_nf10_10g_interface_3/nf10_10g_interface_3/clk156" ;
+TIMEGRP "TN_nf10_10g_interface_3/nf10_10g_interface_3/clk156" AREA_GROUP = "CLKAG_nf10_10g_interface_3/nf10_10g_interface_3/clk156" ;
+AREA_GROUP "CLKAG_nf10_10g_interface_3/nf10_10g_interface_3/clk156" RANGE =   CLOCKREGION_X0Y0, CLOCKREGION_X1Y0, CLOCKREGION_X0Y1, CLOCKREGION_X1Y1, CLOCKREGION_X0Y2, CLOCKREGION_X1Y2, CLOCKREGION_X0Y3, CLOCKREGION_X1Y3, CLOCKREGION_X0Y4, CLOCKREGION_X1Y4, CLOCKREGION_X0Y5, CLOCKREGION_X1Y5, CLOCKREGION_X0Y6, CLOCKREGION_X1Y6, CLOCKREGION_X0Y7, CLOCKREGION_X1Y7, CLOCKREGION_X0Y8, CLOCKREGION_X1Y8, CLOCKREGION_X0Y9, CLOCKREGION_X1Y9, CLOCKREGION_X0Y10, CLOCKREGION_X1Y10, CLOCKREGION_X0Y11, CLOCKREGION_X1Y11 ;
+
+# NOTE: 
+# This report is provided to help reproduce successful clock-region 
+# assignments. The report provides range constraints for all global 
+# clock networks, in a format that is directly usable in ucf files. 
+#
+#END of Global Clock Net Distribution UCF Constraints
+######################################################################################
+
+
+######################################################################################
+GLOBAL CLOCK NET LOADS DISTRIBUTION REPORT:
+
+Number of Global Clock Regions : 24
+Number of Global Clock Networks: 11
+
+Clock Region Assignment: SUCCESSFUL
+
+Clock-Region: <CLOCKREGION_X0Y0> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     48 |mb_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     17 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     85 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y0> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     16 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    215 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     49 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    264 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y1> 
+ key resource utilizations (used/available): global-clocks - 3/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    128 |control_clk
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    144 |    604 |mb_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      3 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    144 |    735 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y1> 
+ key resource utilizations (used/available): global-clocks - 3/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     16 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     18 |     46 |control_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |core_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    256 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     18 |    304 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y2> 
+ key resource utilizations (used/available): global-clocks - 4/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      1 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |     24 |    219 |control_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     27 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    237 |mb_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     31 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      1 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |     28 |    514 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y2> 
+ key resource utilizations (used/available): global-clocks - 3/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     16 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |     26 |control_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    286 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |    312 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y3> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      4 |      2 |      1 |     40 |     40 |      8 |      0 |      0 |      0 |      1 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    152 |control_clk
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    121 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      9 |mb_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    127 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     77 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    486 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y3> 
+ key resource utilizations (used/available): global-clocks - 3/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     16 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |control_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    156 |    335 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     41 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    156 |    378 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y4> 
+ key resource utilizations (used/available): global-clocks - 4/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      2 |      1 |      1 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      2 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     16 |control_clk
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    135 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     48 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    101 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      3 |      0 |      0 |      0 |      2 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    300 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y4> 
+ key resource utilizations (used/available): global-clocks - 4/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      1 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    214 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     29 |nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    434 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    681 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y5> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |     16 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |control_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    122 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     30 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     29 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    317 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    499 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y5> 
+ key resource utilizations (used/available): global-clocks - 6/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |control_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    219 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     44 |mb_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    452 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    103 |nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |     81 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    900 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y6> 
+ key resource utilizations (used/available): global-clocks - 4/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |     16 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     11 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    121 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     11 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    184 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    327 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y6> 
+ key resource utilizations (used/available): global-clocks - 6/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     14 |      0 |      0 |      1 |     40 |     40 |      0 |      1 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      2 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    109 |core_clk
+      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     25 |mb_clk
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    466 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    132 |nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    152 |    263 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      6 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    160 |    997 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y7> 
+ key resource utilizations (used/available): global-clocks - 2/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      2 |      1 |      1 |     60 |     60 |      8 |      0 |      0 |      0 |      2 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     96 |    372 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    156 |    250 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    252 |    622 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y7> 
+ key resource utilizations (used/available): global-clocks - 9/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     14 |      0 |      0 |      1 |     40 |     40 |      0 |      1 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      1 |control_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |core_clk
+      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     66 |mb_clk
+      1 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      4 |    136 |nf10_10g_interface_0/nf10_10g_interface_0/clk156
+      1 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    190 |nf10_10g_interface_0/nf10_10g_interface_0/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    511 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    144 |    214 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      2 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    148 |   1128 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y8> 
+ key resource utilizations (used/available): global-clocks - 3/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      4 |      2 |      1 |     40 |     40 |      8 |      0 |      0 |      0 |      1 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    137 |core_clk
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     48 |    150 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    142 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     48 |    429 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y8> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     16 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |core_clk
+      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     66 |mb_clk
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    588 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    214 |nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    252 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      5 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |   1128 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y9> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    168 |core_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      7 |mb_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     90 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    238 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     94 |nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    597 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y9> 
+ key resource utilizations (used/available): global-clocks - 6/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     16 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    104 |core_clk
+      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     69 |mb_clk
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    245 |nf10_10g_interface_1/nf10_10g_interface_1/clk156
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    232 |nf10_10g_interface_1/nf10_10g_interface_1/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    417 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     39 |nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      5 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |   1106 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y10> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     70 |core_clk
+      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     61 |mb_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    196 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    460 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    132 |nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    919 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y10> 
+ key resource utilizations (used/available): global-clocks - 4/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     16 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     40 |core_clk
+      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     66 |mb_clk
+      3 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |    636 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    180 |nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      6 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     14 |    922 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X0Y11> 
+ key resource utilizations (used/available): global-clocks - 5/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     12 |      0 |      0 |      1 |     80 |     80 |      8 |      0 |      0 |      0 |      2 |      0 |   3520 |   6400 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |core_clk
+      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     67 |mb_clk
+      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    189 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    427 |nf10_10g_interface_3/nf10_10g_interface_3/clk156
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    228 |nf10_10g_interface_3/nf10_10g_interface_3/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      5 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      8 |    911 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+
+Clock-Region: <CLOCKREGION_X1Y11> 
+ key resource utilizations (used/available): global-clocks - 3/10 ;
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+   BRAM |    DCM |    PLL |     GT | ILOGIC | OLOGIC |   MULT |  TEMAC |    PPC |   PCIE | IDLYCT | BUFGCT | LUTRAM |     FF | <- (Types of Resources in this  Region)
+   FIFO |        |        |        |        |        |        |        |        |        |        |        |        |        |
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+     16 |      0 |      0 |      1 |     40 |     40 |      0 |      0 |      0 |      0 |      1 |      0 |   3040 |   6080 | <- (Available Resources in this Region)
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+        |        |        |        |        |        |        |        |        |        |        |        |        |        | <Global clock Net Name>
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      0 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |     69 |mb_clk
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    158 |    972 |nf10_10g_interface_2/nf10_10g_interface_2/clk156
+      2 |      0 |      0 |      1 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    235 |nf10_10g_interface_2/nf10_10g_interface_2/xaui_block/rocketio_wrapper_i/tile1_rxrecclk0_i
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+      4 |      0 |      0 |      3 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |      0 |    158 |   1276 | Total 
+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+----------------------------------------
+
+NOTE:
+The above detailed report is the initial placement of the logic after the clock region assignment. The final placement
+may be significantly different because of the various optimization steps which will follow. Specifically, logic blocks
+maybe moved to adjacent clock-regions as long as the "number of clocks per region" constraint is not violated.
+
+
+# END of Global Clock Net Loads Distribution Report:
+######################################################################################
+
+
+Phase 9.30  Global Clock Region Assignment (Checksum:e7da70c8) REAL time: 2 mins 17 secs 
+
+Phase 10.3  Local Placement Optimization
+Phase 10.3  Local Placement Optimization (Checksum:e7da70c8) REAL time: 2 mins 18 secs 
+
+Phase 11.5  Local Placement Optimization
+Phase 11.5  Local Placement Optimization (Checksum:e7da70c8) REAL time: 2 mins 18 secs 
+
+Phase 12.8  Global Placement
+.......................................................................................................................................................................
+.........................
+..............................................................................................................................................................
+................................
+.......................................
+.......................
+Phase 12.8  Global Placement (Checksum:4cf27346) REAL time: 3 mins 24 secs 
+
+Phase 13.29  Local Placement Optimization
+Phase 13.29  Local Placement Optimization (Checksum:4cf27346) REAL time: 3 mins 24 secs 
+
+Phase 14.5  Local Placement Optimization
+Phase 14.5  Local Placement Optimization (Checksum:4cf27346) REAL time: 3 mins 25 secs 
+
+Phase 15.18  Placement Optimization
+Phase 15.18  Placement Optimization (Checksum:42827a2a) REAL time: 5 mins 12 secs 
+
+Phase 16.5  Local Placement Optimization
+Phase 16.5  Local Placement Optimization (Checksum:42827a2a) REAL time: 5 mins 13 secs 
+
+Phase 17.34  Placement Validation
+Phase 17.34  Placement Validation (Checksum:42827a2a) REAL time: 5 mins 14 secs 
+
+Total REAL time to Placer completion: 5 mins 17 secs 
+Total CPU  time to Placer completion: 6 mins 15 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:1842 - One or more GTXs are being used in this design. Evaluate the SelectIO-To-GTX Crosstalk
+   section of the Virtex-5 RocketIO GTX Transceiver User Guide to ensure that the design SelectIO usage meets the
+   guidelines to minimize the impact on GTX performance. 
+WARNING:PhysDesignRules:367 - The signal <microblaze_0_d_bram_ctrl_2_microblaze_0_bram_block_BRAM_Addr<30>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <microblaze_0_d_bram_ctrl_2_microblaze_0_bram_block_BRAM_Addr<31>> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:781 - PULLUP on an active net. PULLUP of comp ProtoComp405.PULL is set but the tri state is not
+   configured. 
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   31
+Slice Logic Utilization:
+  Number of Slice Registers:                15,885 out of 149,760   10%
+    Number used as Flip Flops:              15,882
+    Number used as Latch-thrus:                  3
+  Number of Slice LUTs:                     14,540 out of 149,760    9%
+    Number used as logic:                   13,896 out of 149,760    9%
+      Number using O6 output only:          12,967
+      Number using O5 output only:             560
+      Number using O5 and O6:                  369
+    Number used as Memory:                     578 out of  39,360    1%
+      Number used as Dual Port RAM:             64
+        Number using O5 and O6:                 64
+      Number used as Shift Register:           514
+        Number using O6 output only:           514
+    Number used as exclusive route-thru:        66
+  Number of route-thrus:                       641
+    Number using O6 output only:               621
+    Number using O5 output only:                16
+    Number using O5 and O6:                      4
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 8,108 out of  37,440   21%
+  Number of LUT Flip Flop pairs used:       21,255
+    Number with an unused Flip Flop:         5,370 out of  21,255   25%
+    Number with an unused LUT:               6,715 out of  21,255   31%
+    Number of fully used LUT-FF pairs:       9,170 out of  21,255   43%
+    Number of unique control sets:           1,626
+    Number of slice register sites lost
+      to control set restrictions:           3,832 out of 149,760    2%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         7 out of     680    1%
+    Number of LOCed IOBs:                        7 out of       7  100%
+    IOB Flip Flops:                              6
+    Number of bonded IPADs:                     40
+      Number of LOCed IPADs:                     8 out of      40   20%
+    Number of bonded OPADs:                     32
+
+Specific Feature Utilization:
+  Number of BlockRAM/FIFO:                      42 out of     324   12%
+    Number using BlockRAM only:                 20
+    Number using FIFO only:                     22
+    Total primitives used:
+      Number of 36k BlockRAM used:               4
+      Number of 18k BlockRAM used:              18
+      Number of 36k FIFO used:                   6
+      Number of 18k FIFO used:                  16
+    Total Memory used (KB):                    972 out of  11,664    8%
+  Number of BUFG/BUFGCTRLs:                     11 out of      32   34%
+    Number used as BUFGs:                       11
+  Number of BUFDSs:                              4 out of      24   16%
+  Number of GTX_DUALs:                           8 out of      24   33%
+    Number of LOCed GTX_DUALs:                   8 out of       8  100%
+  Number of PLL_ADVs:                            1 out of       6   16%
+
+Average Fanout of Non-Clock Nets:                3.55
+
+Peak Memory Usage:  1716 MB
+Total REAL time to MAP completion:  5 mins 33 secs 
+Total CPU time to MAP completion (all processors):   6 mins 30 secs 
+
+Mapping completed.
+See MAP report file "system_map.mrp" for details.

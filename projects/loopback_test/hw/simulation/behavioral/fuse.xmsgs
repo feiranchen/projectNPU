@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_axis_converter_v1_00_a/hdl/verilog/small_fifo_v3.v" Line 38: Parameter declaration becomes local in <arg fmt="%s" index="1">small_fifo</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 106: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 107: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 204: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 205: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 206: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 207: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 213: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 214: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 215: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 216: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 217: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 218: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 224: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 225: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 226: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 227: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 228: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 229: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 230: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 231: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 232: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 233: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 234: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 235: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 236: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 237: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 238: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 239: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 244: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 245: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 246: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 247: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 248: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 249: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 250: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 255: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/tx_sync.v" Line 256: Parameter declaration becomes local in <arg fmt="%s" index="1">TX_SYNC</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/cc_2b_1skp.v" Line 951: Parameter declaration becomes local in <arg fmt="%s" index="1">CC_2B_1SKP_RFSM</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="693" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/cc_2b_1skp.v" Line 1234: Parameter declaration becomes local in <arg fmt="%s" index="1">CC_2B_1SKP_WFSM</arg> with formal parameter declaration list
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/xilinx/xaui.v" Line 9344: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="687" delta="unknown" >"/opt/Xilinx/13.4/ISE_DS/ISE/verilog/src/glbl.v" Line 5: Illegal redeclaration of module &lt;<arg fmt="%s" index="1">glbl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38156: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DCLKp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38157: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38158: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">INTDATAWIDTHp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38159: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PHYSTATUS1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38160: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PLLPOWERDOWNp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38161: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PRBSCNTRESET0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38162: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">REFCLKOUT_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38163: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RESETDONE0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38164: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBUFRESET0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38165: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEREALIGN1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38166: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCOMMADETUSE0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38167: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCOMMADETUSE1p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38168: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENEQ0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38169: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENEQ1p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38171: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXHEADERVALID0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38174: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXRESET0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38175: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXSLIDE0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38176: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXUSRCLK0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38177: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXVALID0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38178: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANMODEp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38179: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANOUTPCS0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38180: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TSTPWRDNOVRD1p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38182: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXOUTCLK0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38183: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXOUTCLK1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38184: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXRESET0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38185: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXUSRCLK1p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38186: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DCLK_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38187: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DWE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38188: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PLLLKDETEN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38190: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RESETDONE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38191: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEREALIGN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38192: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEREALIGN1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38194: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDEC8B10BUSE0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38195: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDEC8B10BUSE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38196: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENEQ0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38197: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENMCOMMAALIGN1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38198: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENSAMPLEALIGN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38199: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXOVERSAMPLEERR0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38200: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXPRBSERR0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38201: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXSTARTOFSEQ0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38202: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXUSRCLK20_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38203: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANEN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38204: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TSTPWRDNOVRD0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38205: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TSTPWRDNOVRD1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38206: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXDETECTRX0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38207: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXINHIBIT0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38208: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXOUTCLK1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38209: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOLARITY0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38210: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/nf10/nf10_10g_interface.v" Line 158: Port <arg fmt="%s" index="1">align_status</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/nf10/nf10_10g_interface.v" Line 208: Port <arg fmt="%s" index="1">status_vector</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/nf10/nf10_10g_interface.v" Line 200: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">configuration_vector</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">8</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38828: Target &lt;<arg fmt="%s" index="1">(null)</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top_shell.v" Line 450: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RREF</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top_shell.v" Line 451: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">AVCC</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top_shell.v" Line 452: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">AVSSPLL</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top_shell.v" Line 453: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">AVTTTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top_shell.v" Line 454: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">CLKINSOUTHN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top_shell.v" Line 455: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">CLKP</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top_shell.v" Line 456: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXP0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top_shell.v" Line 457: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cfg_reset</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top_shell.v" Line 458: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">grestore</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">24</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38311: Target &lt;<arg fmt="%s" index="1">(null)</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DRDY_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38565: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PHYSTATUS0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38567: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PHYSTATUS1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38569: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PLLLKDET_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38570: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PMATSTCLK_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38571: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">REFCLKOUT_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38572: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RESETDONE0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38574: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RESETDONE1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38576: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEISALIGNED0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38577: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEISALIGNED1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38579: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEREALIGN0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38580: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEREALIGN1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38582: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCHANISALIGNED0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38583: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCHANISALIGNED1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38584: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCHANREALIGN0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38592: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXELECIDLE1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38593: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXHEADERVALID0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38597: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXSTARTOFSEQ1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38598: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXVALID0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38600: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXVALID1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38601: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANOUTPCS0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38602: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANOUTPCS1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANOUTPCSCOMMON_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXN1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38608: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXP0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38630: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">AVCC</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38632: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">AVCCPLL</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38634: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">AVTTRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38635: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">AVTTRXC</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38636: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">CLKINNORTHP</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38637: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">CLKINSOUTHN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38638: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">CLKINSOUTHP</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38639: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">CLKN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38642: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">INTDATAWIDTH</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38644: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PLLLKDETEN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38646: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PRBSCNTRESET1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38647: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">REFCLKPWRDN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38649: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCOMMADETUSE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38650: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDEC8B10BUSE0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38651: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENCHANSYNC1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38653: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENEQ0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38655: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENPMAPHASEALIGN1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38657: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENSAMPLEALIGN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38658: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENSAMPLEALIGN1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38659: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXGEARBOXSLIP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38661: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXPMASETPHASE0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">640</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38663: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXPMASETPHASE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">640</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38665: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXPOLARITY0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">640</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38669: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANMODE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38671: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXCOMSTART0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38672: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXCOMSTART1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38674: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXCOMTYPE0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38675: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXCOMTYPE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38676: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXDETECTRX0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38677: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXDETECTRX1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38678: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXELECIDLE0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38679: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENC8B10BUSE0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38680: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENC8B10BUSE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38681: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPMAPHASEALIGN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38685: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOLARITY1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38686: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXRESET0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38688: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38689: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXUSRCLK21_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38690: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">cfg_mclk</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38692: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">por_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 32618: Target &lt;<arg fmt="%s" index="1">(null)</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38156: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DCLKp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38157: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38158: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">INTDATAWIDTHp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38159: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PHYSTATUS1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38160: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PLLPOWERDOWNp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38161: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PRBSCNTRESET0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38162: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">REFCLKOUT_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38163: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RESETDONE0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38164: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBUFRESET0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38165: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEREALIGN1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38166: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCOMMADETUSE0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38167: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCOMMADETUSE1p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38168: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENEQ0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38169: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENEQ1p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38171: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXHEADERVALID0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38174: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXRESET0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38175: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXSLIDE0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38176: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXUSRCLK0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38177: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXVALID0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38178: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANMODEp</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38179: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANOUTPCS0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38180: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TSTPWRDNOVRD1p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38182: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXOUTCLK0_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38183: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXOUTCLK1_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38184: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXRESET0p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38185: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXUSRCLK1p</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38186: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DCLK_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38187: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DWE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38188: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PLLLKDETEN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38190: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RESETDONE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38191: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEREALIGN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38192: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEREALIGN1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38194: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDEC8B10BUSE0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38195: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDEC8B10BUSE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38196: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENEQ0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38197: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENMCOMMAALIGN1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38198: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENSAMPLEALIGN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38199: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXOVERSAMPLEERR0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38200: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXPRBSERR0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38201: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXSTARTOFSEQ0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38202: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXUSRCLK20_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38203: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SCANEN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38204: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TSTPWRDNOVRD0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38205: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TSTPWRDNOVRD1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38206: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXDETECTRX0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38207: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXINHIBIT0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">7</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38208: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXOUTCLK1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38209: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOLARITY0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38210: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 37700: Target &lt;<arg fmt="%s" index="1">(null)</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38262: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DRDY</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38263: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PMATSTCLK</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38264: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXBYTEISALIGNED1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38265: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCHANREALIGN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38266: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXELECIDLE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38267: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXSTARTOFSEQ1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38268: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXVALID1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38269: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38270: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38271: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">AVTTRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38272: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">CLKINSOUTHN</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38273: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">INTDATAWIDTH</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38274: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PRBSCNTRESET1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38275: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXCOMMADETUSE0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38276: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENCHANSYNC1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38277: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXENPMAPHASEALIGN1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38278: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXGEARBOXSLIP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38279: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXPMASETPHASE0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">640</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38283: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXDETECTRX1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">6</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38284: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPMAPHASEALIGN0</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38285: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPMASETPHASE1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38287: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">mc_cfg_pwrup1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 38288: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">por_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">3</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 36261: Target &lt;<arg fmt="%s" index="1">(null)</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 37235: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">daddr_st_4_b</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 37236: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">dwe_st</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/build/xfndry/isimco/hipsBuilds/o_hips_v30.0/rst/hips/gtx_dual_fast_postlava/RTL/gtx5f_gtxdual_top.v" Line 37237: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">dwe</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">20</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/nf10/nf10_10g_interface.v" Line 230: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">configuration_vector</arg>&gt;. Formal port size is <arg fmt="%d" index="2">69</arg>-bit while actual signal size is <arg fmt="%d" index="1">72</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/nf10/tx_queue.v" Line 102: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DOP</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_10g_interface_v1_10_a/hdl/verilog/nf10/tx_queue.v" Line 112: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DIP</arg>&gt;. Formal port size is <arg fmt="%d" index="2">8</arg>-bit while actual signal size is <arg fmt="%d" index="1">5</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1330" delta="unknown" >"/root/NetFPGA-10G-live-release_5.0.7/lib/hw/std/pcores/nf10_axis_converter_v1_00_a/hdl/verilog/nf10_axis_converter.v" Line 83: Function <arg fmt="%s" index="1">log2</arg> has no return value assignment
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 921: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 936: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 940: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 944: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 956: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 960: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 964: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 968: Element index <arg fmt="%d" index="1">4</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 972: Element index <arg fmt="%d" index="1">5</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 976: Element index <arg fmt="%d" index="1">6</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 980: Element index <arg fmt="%d" index="1">7</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1024: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1035: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1036: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1037: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1044: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1045: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1046: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1047: Element index <arg fmt="%d" index="1">4</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1048: Element index <arg fmt="%d" index="1">5</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1049: Element index <arg fmt="%d" index="1">6</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1050: Element index <arg fmt="%d" index="1">7</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1090: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1101: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1102: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1103: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1109: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1110: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1111: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1112: Element index <arg fmt="%d" index="1">4</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1113: Element index <arg fmt="%d" index="1">5</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1114: Element index <arg fmt="%d" index="1">6</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1115: Element index <arg fmt="%d" index="1">7</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1183: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1184: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1204: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1205: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1210: Element index <arg fmt="%d" index="1">23</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1211: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1216: Element index <arg fmt="%d" index="1">31</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1217: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1232: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1233: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1238: Element index <arg fmt="%d" index="1">23</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1239: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1244: Element index <arg fmt="%d" index="1">31</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1245: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1250: Element index <arg fmt="%d" index="1">39</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1251: Element index <arg fmt="%d" index="1">4</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1256: Element index <arg fmt="%d" index="1">47</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1257: Element index <arg fmt="%d" index="1">5</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1262: Element index <arg fmt="%d" index="1">55</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1263: Element index <arg fmt="%d" index="1">6</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1268: Element index <arg fmt="%d" index="1">63</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1269: Element index <arg fmt="%d" index="1">7</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1343: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1344: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1364: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1365: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1370: Element index <arg fmt="%d" index="1">23</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1371: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1376: Element index <arg fmt="%d" index="1">31</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1377: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1392: Element index <arg fmt="%d" index="1">15</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1393: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1398: Element index <arg fmt="%d" index="1">23</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1399: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1404: Element index <arg fmt="%d" index="1">31</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1405: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1410: Element index <arg fmt="%d" index="1">39</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1411: Element index <arg fmt="%d" index="1">4</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1416: Element index <arg fmt="%d" index="1">47</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1417: Element index <arg fmt="%d" index="1">5</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1422: Element index <arg fmt="%d" index="1">55</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1423: Element index <arg fmt="%d" index="1">6</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1428: Element index <arg fmt="%d" index="1">63</arg> into <arg fmt="%s" index="2">mem</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 1429: Element index <arg fmt="%d" index="1">7</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 833: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 848: Element index <arg fmt="%d" index="1">1</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 852: Element index <arg fmt="%d" index="1">2</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"/build/xfndry10/O.87xd/rtf/verilog/src/unisims/ARAMB36_INTERNAL.v" Line 856: Element index <arg fmt="%d" index="1">3</arg> into <arg fmt="%s" index="2">memp</arg> is out of bounds
+</msg>
+
+</messages>
+
